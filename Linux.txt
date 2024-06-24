@@ -1,27 +1,24 @@
 #separator:tab
 #html:true
-
 sistema linux é gratuito?	sim
 o sistema linux possui suporte a quantos terminais?	256
 posix	conjunto de normas para compatibilidade entre sistemas operacionais&nbsp;
-Comando /cp [opções] [origem] [destino]	Copia um ou vários arquivos.
-Formatação de Discos - Comando /mkfs	Comando para formatar uma partição.
-Comando /mount [dispositivo] [ponto de montagem] [opções]	monta uma partição.
+Formatação de Discos - Comando /mkfs	(Make Filesystem)<br>Comando para formatar uma partição.
 Montagem de partições no disco - /fstab	Mostra os dispositivos no sistema, não necessariamente montados, e é usado pelo swapon e mount durante o processo de inicialização.
+
+Comando - /cp	<i>cp [opções] [origem] [destino]</i><br>Copia um ou vários arquivos.
+Comando - /mount	<i>mount [dispositivo] [ponto de montagem] [opções]</i><br>monta uma partição.
 
 Diretório - /home	diretorio do usuario&nbsp;
 Diretório - /root&nbsp;	diretorio do superusuário(root)
-Diretório - /bin	"<div>Programas usados com frequência pelos 
-</div><div>usuários</div>"
+Diretório - /bin	"<div>Programas usados com frequência pelos usuários</div>"
 Diretório - /boot	Arquivos necessários para a inicialização do sistema
 Diretório - /media	Ponto de montagem de dispositivos diversos do sistema (distros mais novas)
 Diretório - /dev	Arquivo usados para acessar dispositivos (Periféricos)
 Diretório - /etc	Arquivos de configuração
 Diretório - /floppy	Ponto de montagem de unidade de disquetes
 Diretório - /lib	Bibliotecas compartilhadas pelos programas
-Diretório - /lost+found	"<div>• Local para a gravação de arquivos/diretórios
-</div><div>recuperados pelo utilitário fsck.ext2. </div><div>• Cada partição possui seu próprio diretório
-</div><div>lost+found.</div>"
+Diretório - /lost+found	"<div>• Local para a gravação de arquivos/diretórios </div><div>recuperados pelo utilitário fsck.ext2. </div><div>• Cada partição possui seu próprio diretório </div><div>lost+found.</div>"
 Diretório - /mnt	Ponto de montagem temporário
 Diretório - /proc	sistema de arquivos virtual do kernel
 Diretório - /sys	verificação config do sistema ou modificar o funcionamento de dispositivos
@@ -31,77 +28,39 @@ Diretório - /usr	Contém a maior parte do programas dos usuários
 Diretório - /var	Arquivos variaveis&nbsp;
 
 Manipulação de Diretorios - Diretório /cdrom&nbsp;	Ponto de montagem da unidade de CD-ROM
-Manipulação de Diretorios - Comando /ls [opções] [argumentos]:	Lista o conteúdo do diretório especificado, caso este nao seja informado, o comando retornará o conteúdo do diretório corrente&nbsp;
-Manipulação de Diretorios -&nbsp;Comando /cd [diretório] (change directory)	Altera o diretório corrente, ou seja, acessa diretórios.
-Manipulação de Diretorios -&nbsp;Comando /pwd (print working directory)	Mostra o caminho completo do diretório corrente.
-Manipulação de Diretorios -&nbsp;Comando /mkdir [opções] (make directory)	Cria novos diretórios.
-Manipulação de Diretorios -&nbsp;Comando /rmdir [opções] (remove directory)	Remove diretórios vazios.
-Manipulação de Diretorios -&nbsp;Comando /cat [opções] (concatenate)	Exibe o conteúdo de arquivos em sequência (formato texto)
-Manipulação de Diretorios -&nbsp;Comando /tac [opções]&nbsp;	Mostra o conteúdo de um arquivo binário ou texto (como o cat) só que em ordem inversa.
-Manipulação de Diretorios -&nbsp;Comando /rm [opções] [caminho] (remove)	Apaga arquivos e também pode ser usado para apagar diretórios e sub-diretórios vazios ou que contenham arquivos.
-Manipulação de Diretorios -&nbsp;Comando /mv [opções] [origem] [destino] (move)	Move ou renomeia arquivos e diretórios. O processo é semelhante ao do comando cp mas o aquivos de origem é apagado após o término da cópia.
-Manipulação de Diretorios -&nbsp;Comando /who [opções] (quem?)	Mostra quem está atualmente conectado no computador. Este comando lista os nomes de usuários que estão conectados em seu computador, o terminal e data da conexão.
+Manipulação de Diretorios - Comando /ls	<i>ls [opções] [argumentos] (list structure)</i><br>Lista o conteúdo do diretório especificado, caso este nao seja informado, o comando retornará o conteúdo do diretório corrente&nbsp;
+Manipulação de Diretorios -&nbsp;Comando /cd	<i>cd [diretório] (change directory)</i><br>Altera o diretório corrente, ou seja, acessa diretórios.
+Manipulação de Diretorios -&nbsp;Comando /pwd&nbsp;	<i>Print Working Directory</i><br>Mostra o caminho completo do diretório corrente.
+Manipulação de Diretorios -&nbsp;Comando /mkdir	<i>mkdir [opções] (make directory)</i><br>Cria novos diretórios.
+Manipulação de Diretorios -&nbsp;Comando /rmdir	rmdir [opções] (remove directory)<br>Remove diretórios vazios.
+Manipulação de Diretorios -&nbsp;Comando /cat	<i>cat [opções] (concatenate)</i><br>Exibe o conteúdo de arquivos em sequência (formato texto)
+Manipulação de Diretorios -&nbsp;Comando /tac	<i>/tac [opções]&nbsp;</i><br>Mostra o conteúdo de um arquivo binário ou texto (como o cat) só que em ordem inversa.
+Manipulação de Diretorios -&nbsp;Comando /rm	<i>rm [opções] [caminho] (remove)</i><br>Apaga arquivos e também pode ser usado para apagar diretórios e sub-diretórios vazios ou que contenham arquivos.
+Manipulação de Diretorios -&nbsp;Comando /mv	<i>mv [opções] [origem] [destino] (move)</i><br>Move ou renomeia arquivos e diretórios. O processo é semelhante ao do comando cp mas o aquivos de origem é apagado após o término da cópia.
+Manipulação de Diretorios -&nbsp;Comando /who	<i>/who [opções] (quem?)</i><br>Mostra quem está atualmente conectado no computador. Este comando lista os nomes de usuários que estão conectados em seu computador, o terminal e data da conexão.
 Manipulação de Diretorios -&nbsp;Comando /whoami	Mostra o nome que usou para se conectar ao sistema. É util quando você usa várias contas e não sabe com qual nome entrou no sistema :-)
-Manipulação de Diretorios -&nbsp;Comando /finger [usuário] [usuário@host]	Mostra detalhes sobre os usuários de um sistema. Se for usado sem parâmetro, mostra os dados de todos os usuários conectados atualmente ao seu sistema.
+Manipulação de Diretorios -&nbsp;Comando /finger	<i>finger [usuário] [usuário@host]</i><br>Mostra detalhes sobre os usuários de um sistema. Se for usado sem parâmetro, mostra os dados de todos os usuários conectados atualmente ao seu sistema.
 
-Manipulação de Redes - #telnet [opções] [ip/dns] [porta]"	Permite acesso a um computador remoto.
-Manipulação de Redes - #ftp [ip/dns]"	Permite a transferencia de arquivos do computador remoto/local e vice e versa.<br>o file transfer protocol é o sistema de transmissão de arquivos mais usados na internet.
-Manipulação de Redes - #dnsdomainname"	Mostra o nome do domínio de seu sistema.<br>Mostra o nome de domínio dns do sistema, ou seja, o nome de dominio do host local.
-Manipulação de Redes - #hostname"	Mostra ou muda o nome de seu computador na rede.<br>Quando usado sem pârametros, o nome da máquina é exibido.
-Manipulação de Redes - #talk [usuário] [tty] ou talk talk [usuário@host]"	Inicia a conversa com outro usuário de sistema em uma rede local ou internet
-
-Manipulação de Arquivos - Comando /du [opções]	Mostra o espaço ocupado por arquivos e subdiretórios do diretório atual.
+"Manipulação de Redes - #telnet"	"<i>#telnet [opções] [ip/dns] [porta]</i><br>Permite acesso a um computador remoto."
+"Manipulação de Redes - #ftp"	<i>ftp [ip/dns]</i><br>Permite a transferencia de arquivos do computador remoto/local e vice e versa.<br>o file transfer protocol é o sistema de transmissão de arquivos mais usados na internet.
+"Manipulação de Redes - #dnsdomainname"	Mostra o nome do domínio de seu sistema.<br>Mostra o nome de domínio dns do sistema, ou seja, o nome de dominio do host local.
+"Manipulação de Redes - #hostname"	Mostra ou muda o nome de seu computador na rede.<br>Quando usado sem pârametros, o nome da máquina é exibido.
+"Manipulação de Redes - #talk"	"#talk [usuário] [tty]<br>talk talk [usuário@host]<br>Inicia a conversa com outro usuário de sistema em uma rede local ou internet"
+Manipulação de Arquivos - Comando /du	<i>/du [opções]</i><br>Mostra o espaço ocupado por arquivos e subdiretórios do diretório atual.
 "<div>Manipulação de Arquivos - Comando <span style=""font-weight: bold;"">DF</span></div>"	<div>Mostra o espaço livre/ocupado de cada partição.</div>
 
-Gerenciamento de Processos - Comando jobs [opções] [nome | número do job]	"<div>Mostra os processos que estão “parados” ou rodando em <span style=""font-weight: bold;"">segundo plano</span>. </div><div>Ou seja, processos iniciados usando o símbolo “&amp;” no final da linha de
-</div><div>comando ou através do comando <span style=""font-style: italic;"">bg.</span></div>"
-Gerenciamento de Processos - Comando fg [número]	"<div>&nbsp;Permite fazer um programa rodando em
-</div><div>segundo plano ou parado, rodar em primeiro
-</div><div>plano.
-</div><div>&nbsp;Você deve usar o comando jobs para pegar o
-</div><div>número do processo rodando em segundo
-</div><div>plano ou interrompido, este número será
-</div><div>passado ao comando fg para ativa-lo em
-</div><div>primeiro plano.
-</div><div>&nbsp;Onde número é o número obtido através do
-</div><div>comando <span style=""font-style: italic;"">jobs</span>. </div><div>&nbsp;Caso seja usado sem parâmetros, o fg utilizará
-</div><div>o último programa interrompido (o maior
-</div><div>número obtido com o comando jobs).</div>"
-Gerenciamento de Processos - Comando /bg [número]	"<div>&nbsp;Permite fazer um programa rodando em
-</div><div>primeiro plano ou parado, rodar em segundo
-</div><div>plano.
-</div><div>&nbsp;Para fazer um programa em primeiro plano
-</div><div>rodar em segundo, é necessário primeiro
-</div><div>interromper a execução do comando com
-</div><div>CTRL+ Z, será mostrado o número da tarefa
-</div><div>interrompida, use este número com o
-</div><div>comando bg para iniciar a execução do
-</div><div>comando em segundo plano.
-</div><div>&nbsp;Onde: número número do programa obtido
-</div><div>com o pressionamento das teclas CTRL+Z ou
-</div><div>através do comando jobs.</div>"
-Gerenciamento de Processos - Comando killall [opções] [sinal] [processo]	<div>Permite finalizar todos os processos através do nome</div>
-Gerenciamento de Processos - Comando killall5 [sinal]	<div>Envia um sinal de finalização para todos os processos sendo executados</div>
-Gerenciamento de Processos - Comando ps [opções]	"<div>Lista os processos “em
-</div><div>execução”. Quando executado
-</div><div>sem opções, apresenta apenas
-</div><div>os processos do usuário que
-</div><div>estão vinculados ao terminal
-</div><div>utilizado.</div>"
-Gerenciamento de Processos - Comando top [opções]	"<div>Mostra os programas em execução
-</div><div>ativos, parados, tempo usado na CPU,
-</div><div>detalhes sobre o uso da memória
-</div><div>RAM, Swap, disponibilidade para
-</div><div>execução de programas no sistema,
-</div><div>etc.</div>"
-<div>Gerenciamento de Processos - Comando nohup</div>	<div>Desvincula um processo filho da shell associada</div>
-Gerenciamento de Processos - Comando stat [opções] [arquivo]	<div>Apresenta o estado atual em que o processo se encontra.</div>
+Gerenciamento de Processos - Comando jobs	"<div><i>jobs [opções] [nome | número do job]</i><br></div><div>Mostra os processos que estão “parados” ou rodando em <span style=""font-weight: bold;"">segundo plano</span>. </div><div>Ou seja, processos iniciados usando o símbolo “&amp;” no final da linha de comando ou através do comando <span style=""font-style: italic;"">bg.</span></div>"
+Gerenciamento de Processos - Comando fg	"<div><i>fg [número]</i><br></div><div>Permite fazer um programa rodando em segundo plano ou parado, rodar em primeiro plano.</div><div>Você deve usar o comando jobs para pegar o número do processo rodando em segundo plano ou interrompido, este número será</div><div>passado ao comando fg para ativa-lo em primeiro plano.</div><div>Onde número é o número obtido através do comando <span style=""font-style: italic;"">jobs</span>.</div><div>Caso seja usado sem parâmetros, o fg utilizará o último programa interrompido (o maior número obtido com o comando jobs).</div>"
+Gerenciamento de Processos - Comando /bg	<div><i>/bg [número]</i><br>Permite fazer um programa rodando em primeiro plano ou parado, rodar em segundo plano.</div><div>Para fazer um programa em primeiro plano rodar em segundo, é necessário primeiro interromper a execução do comando com</div><div>CTRL+ Z, será mostrado o número da tarefa interrompida, use este número com o comando bg para iniciar a execução do comando em segundo plano.<br>Onde: número número do programa obtido com o pressionamento das teclas CTRL+Z ou através do comando jobs.</div>
+Gerenciamento de Processos - Comando killall	<div><i>killall [opções] [sinal] [processo]</i><br></div><div>Permite finalizar todos os processos através do nome</div>
+Gerenciamento de Processos - Comando killall5	<div><i>killall5 [sinal]</i><br></div><div>Envia um sinal de finalização para todos os processos sendo executados</div>
+Gerenciamento de Processos - Comando ps	<div><i>ps [opções]</i><br></div><div>Lista os processos “em execução”. Quando executado</div><div>sem opções, apresenta apenas os processos do usuário que</div><div>estão vinculados ao terminal utilizado.</div>
+Gerenciamento de Processos - Comando top	<div><i>top [opções]</i><br></div><div>Mostra os programas em execução ativos, parados, tempo usado na CPU, detalhes sobre o uso da memória RAM, Swap, disponibilidade para execução de programas no sistema, etc.</div>
+Gerenciamento de Processos - Comando nohup</div>	<div>Desvincula um processo filho da shell associada</div>
+Gerenciamento de Processos - Comando stat	<div><i>stat [opções] [arquivo]</i><br></div><div>Apresenta o estado atual em que o processo se encontra.</div>
 Gerenciamento de Processos - Comando tty	<div>Mostra qual terminal está sendo executado um processo.</div>
-Gerenciamento de Processos - Comando&nbsp;pstree [opções]	<div>Apresenta processos em formato de árvore (hierarquia entre processos).</div>
+Gerenciamento de Processos - Comando&nbsp;pstree	<div><i>pstree [opções]</i><br></div><div>Apresenta processos em formato de árvore (hierarquia entre processos).</div>
 Gerenciamento de Processos - Comando&nbsp;pidof	<div>Fornece o PID de um programa em execução.</div>
-Gerenciamento de Processos - Comando vmstat [intervalo] [contagem]	"<div>&nbsp;Mostra estatísticas sobre o uso da <span style=""font-style: italic;"">memória virtual </span>do sistema.</div><div><br></div><div>&nbsp;Se não for especificado nenhum parâmetro, o vmstat mostra o status da
-</div><div>memória virtual e volta imediatamente para a linha de comando.</div>"
-Gerenciamento de Processos - Comando fuser [opções] [arquivo]	"<div>&nbsp;Permite <span style=""font-style: italic;"">identificar </span>e <span style=""font-style: italic;"">fechar </span>os processos que estão utilizando arquivos e socketes no sistema.</div><div>&nbsp;O comando fuser é um utilitário do Unix que permite descobrir quais processos estão usando um arquivo, um diretório ou até mesmo um socket.</div><div>&nbsp;Além disso, o comando também retorna informações sobre o&nbsp;<span style=""font-style: italic;"">proprietário </span>do processo e o tipo de acesso a ele.</div>"
-<div>Gerenciamento de Processos - Comando nice [opções] [comando]</div>	"<div>Define o valor de ajuste da prioridade para a execução de um
-</div><div>comando.</div><div>Permite identificar e fechar os processos que estão utilizado arquivos e socketes no sistema.</div><div>A prioridade de execução de um processo normal pode variar de 0 (maior prioridade) a 39 (menor prioridade).</div>"
-<div>Gerenciamento de Processos - Comando renice</div>	"<div>Altera a prioridade de agendamento de um ou mais processos <span style=""font-style: italic;"">em execução</span>.</div><div>O valor da prioridade de qualquer processo pode variar de -20 (prioridade mais alta, menos “agradável”) a 20 (prioridade mais baixa, “mais legal”).</div><div>A prioridade padrão de novos processos, por padrão, é 0.</div>"
+Gerenciamento de Processos - Comando vmstat	"<div><i>vmstat [intervalo] [contagem]</i>&nbsp;</div><div>Mostra estatísticas sobre o uso da <span style=""font-style: italic;"">memória virtual </span>do sistema.</div><div>Se não for especificado nenhum parâmetro, o vmstat mostra o status da memória virtual e volta imediatamente para a linha de comando.</div>"
+Gerenciamento de Processos - Comando fuser	"<div><i>fuser [opções] [arquivo]</i>&nbsp;</div><div>Permite <span style=""font-style: italic;"">identificar </span>e <span style=""font-style: italic;"">fechar </span>os processos que estão utilizando arquivos e socketes no sistema.</div><div>O comando fuser é um utilitário do Unix que permite descobrir quais processos estão usando um arquivo, um diretório ou até mesmo um socket.</div><div>Além disso, o comando também retorna informações sobre o&nbsp;<span style=""font-style: italic;"">proprietário </span>do processo e o tipo de acesso a ele.</div>"
+Gerenciamento de Processos - Comando nice	"<div><i>nice [opções] [comando]</i><br></div><div>Define o valor de ajuste da prioridade para a execução de um comando.</div><div>Permite identificar e fechar os processos que estão utilizado arquivos e socketes no sistema.</div><div>A prioridade de execução de um processo normal pode variar de 0 (maior prioridade) a 39 (menor prioridade).</div>"<div>Gerenciamento de Processos - Comando renice</div>	"<div>Altera a prioridade de agendamento de um ou mais processos <span style=""font-style: italic;"">em execução</span>.</div><div>O valor da prioridade de qualquer processo pode variar de -20 (prioridade mais alta, menos “agradável”) a 20 (prioridade mais baixa, “mais legal”).</div><div>A prioridade padrão de novos processos, por padrão, é 0.</div>"
