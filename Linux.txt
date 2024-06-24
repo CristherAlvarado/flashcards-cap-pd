@@ -1,30 +1,58 @@
 #separator:tab
 #html:true
+
 sistema linux é gratuito?	sim
 o sistema linux possui suporte a quantos terminais?	256
 posix	conjunto de normas para compatibilidade entre sistemas operacionais&nbsp;
-diretorio /home	diretorio do usuario&nbsp;
-diretorio /root&nbsp;	diretorio do superusuário(root)
-Diretório /bin	"<div>Programas usados com frequência pelos 
+Comando /cp [opções] [origem] [destino]	Copia um ou vários arquivos.
+Formatação de Discos - Comando /mkfs	Comando para formatar uma partição.
+Comando /mount [dispositivo] [ponto de montagem] [opções]	monta uma partição.
+Montagem de partições no disco - /fstab	Mostra os dispositivos no sistema, não necessariamente montados, e é usado pelo swapon e mount durante o processo de inicialização.
+
+Diretório - /home	diretorio do usuario&nbsp;
+Diretório - /root&nbsp;	diretorio do superusuário(root)
+Diretório - /bin	"<div>Programas usados com frequência pelos 
 </div><div>usuários</div>"
-diretório /boot	Arquivos necessários para a inicialização do sistema
-Manipulação de Diretorios - Diretório /cdrom&nbsp;	Ponto de montagem da unidade de CD-ROM
-diretório /media	Ponto de montagem de dispositivos diversos do sistema (distros mais novas)
-diretório /dev	Arquivo usados para acessar dispositivos (Periféricos)
-diretório /etc	Arquivos de configuração
-diretório /floppy	Ponto de montagem de unidade de disquetes
-diretório /lib	Bibliotecas compartilhadas pelos programas
-diretório /lost+found	"<div>• Local para a gravação de arquivos/diretórios
+Diretório - /boot	Arquivos necessários para a inicialização do sistema
+Diretório - /media	Ponto de montagem de dispositivos diversos do sistema (distros mais novas)
+Diretório - /dev	Arquivo usados para acessar dispositivos (Periféricos)
+Diretório - /etc	Arquivos de configuração
+Diretório - /floppy	Ponto de montagem de unidade de disquetes
+Diretório - /lib	Bibliotecas compartilhadas pelos programas
+Diretório - /lost+found	"<div>• Local para a gravação de arquivos/diretórios
 </div><div>recuperados pelo utilitário fsck.ext2. </div><div>• Cada partição possui seu próprio diretório
 </div><div>lost+found.</div>"
-diretório /mnt	Ponto de montagem temporário
-diretório /proc	sistema de arquivos virtual do kernel
-diretório /sys	verificação config do sistema ou modificar o funcionamento de dispositivos
-diretório /sbin	Programas usados pelo superusuário(root)
-diretório /tmp	Armazena arquivos temporários
-diretório /usr	Contém a maior parte do programas dos usuários
-diretório /var	Arquivos variaveis&nbsp;
-"<div>Manipulação de Arquvos - Comando <span style=""font-weight: bold;"">DF</span></div>"	<div>Mostra o espaço livre/ocupado de cada partição.</div>
+Diretório - /mnt	Ponto de montagem temporário
+Diretório - /proc	sistema de arquivos virtual do kernel
+Diretório - /sys	verificação config do sistema ou modificar o funcionamento de dispositivos
+Diretório - /sbin	Programas usados pelo superusuário(root)
+Diretório - /tmp	Armazena arquivos temporários
+Diretório - /usr	Contém a maior parte do programas dos usuários
+Diretório - /var	Arquivos variaveis&nbsp;
+
+Manipulação de Diretorios - Diretório /cdrom&nbsp;	Ponto de montagem da unidade de CD-ROM
+Manipulação de Diretorios - Comando /ls [opções] [argumentos]:	Lista o conteúdo do diretório especificado, caso este nao seja informado, o comando retornará o conteúdo do diretório corrente&nbsp;
+Manipulação de Diretorios -&nbsp;Comando /cd [diretório] (change directory)	Altera o diretório corrente, ou seja, acessa diretórios.
+Manipulação de Diretorios -&nbsp;Comando /pwd (print working directory)	Mostra o caminho completo do diretório corrente.
+Manipulação de Diretorios -&nbsp;Comando /mkdir [opções] (make directory)	Cria novos diretórios.
+Manipulação de Diretorios -&nbsp;Comando /rmdir [opções] (remove directory)	Remove diretórios vazios.
+Manipulação de Diretorios -&nbsp;Comando /cat [opções] (concatenate)	Exibe o conteúdo de arquivos em sequência (formato texto)
+Manipulação de Diretorios -&nbsp;Comando /tac [opções]&nbsp;	Mostra o conteúdo de um arquivo binário ou texto (como o cat) só que em ordem inversa.
+Manipulação de Diretorios -&nbsp;Comando /rm [opções] [caminho] (remove)	Apaga arquivos e também pode ser usado para apagar diretórios e sub-diretórios vazios ou que contenham arquivos.
+Manipulação de Diretorios -&nbsp;Comando /mv [opções] [origem] [destino] (move)	Move ou renomeia arquivos e diretórios. O processo é semelhante ao do comando cp mas o aquivos de origem é apagado após o término da cópia.
+Manipulação de Diretorios -&nbsp;Comando /who [opções] (quem?)	Mostra quem está atualmente conectado no computador. Este comando lista os nomes de usuários que estão conectados em seu computador, o terminal e data da conexão.
+Manipulação de Diretorios -&nbsp;Comando /whoami	Mostra o nome que usou para se conectar ao sistema. É util quando você usa várias contas e não sabe com qual nome entrou no sistema :-)
+Manipulação de Diretorios -&nbsp;Comando /finger [usuário] [usuário@host]	Mostra detalhes sobre os usuários de um sistema. Se for usado sem parâmetro, mostra os dados de todos os usuários conectados atualmente ao seu sistema.
+
+Manipulação de Redes - #telnet [opções] [ip/dns] [porta]"	Permite acesso a um computador remoto.
+Manipulação de Redes - #ftp [ip/dns]"	Permite a transferencia de arquivos do computador remoto/local e vice e versa.<br>o file transfer protocol é o sistema de transmissão de arquivos mais usados na internet.
+Manipulação de Redes - #dnsdomainname"	Mostra o nome do domínio de seu sistema.<br>Mostra o nome de domínio dns do sistema, ou seja, o nome de dominio do host local.
+Manipulação de Redes - #hostname"	Mostra ou muda o nome de seu computador na rede.<br>Quando usado sem pârametros, o nome da máquina é exibido.
+Manipulação de Redes - #talk [usuário] [tty] ou talk talk [usuário@host]"	Inicia a conversa com outro usuário de sistema em uma rede local ou internet
+
+Manipulação de Arquivos - Comando /du [opções]	Mostra o espaço ocupado por arquivos e subdiretórios do diretório atual.
+"<div>Manipulação de Arquivos - Comando <span style=""font-weight: bold;"">DF</span></div>"	<div>Mostra o espaço livre/ocupado de cada partição.</div>
+
 Gerenciamento de Processos - Comando jobs [opções] [nome | número do job]	"<div>Mostra os processos que estão “parados” ou rodando em <span style=""font-weight: bold;"">segundo plano</span>. </div><div>Ou seja, processos iniciados usando o símbolo “&amp;” no final da linha de
 </div><div>comando ou através do comando <span style=""font-style: italic;"">bg.</span></div>"
 Gerenciamento de Processos - Comando fg [número]	"<div>&nbsp;Permite fazer um programa rodando em
@@ -77,25 +105,3 @@ Gerenciamento de Processos - Comando fuser [opções] [arquivo]	"<div>&nbsp;Perm
 <div>Gerenciamento de Processos - Comando nice [opções] [comando]</div>	"<div>Define o valor de ajuste da prioridade para a execução de um
 </div><div>comando.</div><div>Permite identificar e fechar os processos que estão utilizado arquivos e socketes no sistema.</div><div>A prioridade de execução de um processo normal pode variar de 0 (maior prioridade) a 39 (menor prioridade).</div>"
 <div>Gerenciamento de Processos - Comando renice</div>	"<div>Altera a prioridade de agendamento de um ou mais processos <span style=""font-style: italic;"">em execução</span>.</div><div>O valor da prioridade de qualquer processo pode variar de -20 (prioridade mais alta, menos “agradável”) a 20 (prioridade mais baixa, “mais legal”).</div><div>A prioridade padrão de novos processos, por padrão, é 0.</div>"
-Manipulação de Diretorios - Comando /ls [opções] [argumentos]:	Lista o conteúdo do diretório especificado, caso este nao seja informado, o comando retornará o conteúdo do diretório corrente&nbsp;
-Manipulação de Diretorios -&nbsp;Comando /cd [diretório] (change directory)	Altera o diretório corrente, ou seja, acessa diretórios.
-Manipulação de Diretorios -&nbsp;Comando /pwd (print working directory)	Mostra o caminho completo do diretório corrente.
-Manipulação de Diretorios -&nbsp;Comando /mkdir [opções] (make directory)	Cria novos diretórios.
-Manipulação de Diretorios -&nbsp;Comando /rmdir [opções] (remove directory)	Remove diretórios vazios.
-Manipulação de Diretorios -&nbsp;Comando /cat [opções] (concatenate)	Exibe o conteúdo de arquivos em sequência (formato texto)
-Manipulação de Diretorios -&nbsp;Comando /tac [opções]&nbsp;	Mostra o conteúdo de um arquivo binário ou texto (como o cat) só que em ordem inversa.
-Manipulação de Diretorios -&nbsp;Comando /rm [opções] [caminho] (remove)	Apaga arquivos e também pode ser usado para apagar diretórios e sub-diretórios vazios ou que contenham arquivos.
-Comando /cp [opções] [origem] [destino]	Copia um ou vários arquivos.
-Manipulação de Diretorios -&nbsp;Comando /mv [opções] [origem] [destino] (move)	Move ou renomeia arquivos e diretórios. O processo é semelhante ao do comando cp mas o aquivos de origem é apagado após o término da cópia.
-Manipulação de Diretorios -&nbsp;Comando /who [opções] (quem?)	Mostra quem está atualmente conectado no computador. Este comando lista os nomes de usuários que estão conectados em seu computador, o terminal e data da conexão.
-Manipulação de Diretorios -&nbsp;Comando /whoami	Mostra o nome que usou para se conectar ao sistema. É util quando você usa várias contas e não sabe com qual nome entrou no sistema :-)
-Manipulação de Diretorios -&nbsp;Comando /finger [usuário] [usuário@host]	Mostra detalhes sobre os usuários de um sistema. Se for usado sem parâmetro, mostra os dados de todos os usuários conectados atualmente ao seu sistema.
-Formatação de Discos - Comando /mkfs	Comando para formatar uma partição.
-Comando /mount [dispositivo] [ponto de montagem] [opções]	monta uma partição.
-Montagem de partições no disco - /fstab	Mostra os dispositivos no sistema, não necessariamente montados, e é usado pelo swapon e mount durante o processo de inicialização.
-Manipulação de Arquivos - Comando /du [opções]	Mostra o espaço ocupado por arquivos e subdiretórios do diretório atual.
-"manipulação de Redes - #telnet [opções] [ip/dns] [porta]"	Permite acesso a um computador remoto.
-"Manipulação de Redes - #ftp [ip/dns]"	Permite a transferencia de arquivos do computador remoto/local e vice e versa.<br>o file transfer protocol é o sistema de transmissão de arquivos mais usados na internet.
-"Manipulação de Redes - #dnsdomainname"	Mostra o nome do domínio de seu sistema.<br>Mostra o nome de domínio dns do sistema, ou seja, o nome de dominio do host local.
-"Manipulação de Redes - #hostname"	Mostra ou muda o nome de seu computador na rede.<br>Quando usado sem pârametros, o nome da máquina é exibido.
-"Manipulação de Redes - #talk [usuário] [tty] ou talk talk [usuário@host]"	Inicia a conversa com outro usuário de sistema em uma rede local ou internet
