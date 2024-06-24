@@ -1,0 +1,36 @@
+#separator:tab
+#html:true
+Pilares -&nbsp;Encapsulamento	
+Estrutura - Criação de Váriavel	"Tipo NomeBemDefinido = Atribuição;<br><i>(a atribuição é opcional)</i><br>ex. <i>String meuNome = ""Papires"";</i>"
+Estrutura - Métodos	TipoRetorno NomeObjetivoNoInfinitivo (Parametros) {}<br>(os parametros são opcionais)<br>ex. <i>int somar (int n1, int n2)</i>
+Tipos Primitivos - int	<i>tipo numerico<br></i>Ocupa 4 bytes de memória.<br>varia de -2Bilhões a 2Bilhões
+Tipos Primitivos - byte	<i>tipo numerico</i><br>Ocupa 1 byte de memória.<br>Seu valor varia de -128 a 127
+Tipos Primitivos - short	<i>tipo numerico</i><br>Ocupa 2 bytes de memória.<br>Seu valor varia de -32.768 a 32.767
+Tipos Primitivos - long	<i>tipo numerico</i><br>Ocupa 8 bytes de memória.<br>Seu valor varia de -9quintilhões a 9quintilhões
+Tipos Primitivos - float	<i>tipo numerico-fracionário<br></i>Ocupa 4 bytes de memória.<br>varia de -3,4028E+38 a 3,4028E+38
+Tipos Primitivos - double	<i>tipo numerico-fracionário<br></i>Ocupa 8 bytes de memória.<br>varia de -1,7976E+308 a 1,7976E+308
+Type Casting	É quando você atribui um valor de um tipo de dados primitivo a outro tipo.
+Widening Casting	"(automatico)<br>converte um tipo menor 
+para um tamanho de tipo maior<br><code>byte</code> -&gt; <code>short</code> -&gt; <code>char</code> -&gt; <code>int</code> -&gt; <code>long</code> -&gt; <code>float</code> -&gt; <code>double</code>"
+Narrowing Casting	"(manual)<br>converte um tipo maior 
+para um tamanho de tipo menor<br><code>double</code> -&gt; <code>float</code> -&gt; <code>long</code> -&gt; <code>int</code> -&gt; <code>char</code> -&gt; <code>short</code> -&gt; <code>byte</code>"
+Estrutura - Criação de Constantes	<b>final</b> Tipo NOME_BEM_DEFINIDO = Atribuição;<br><i>(a atribuição é opcional)</i><br>ex. <b><i>final</i></b>&nbsp;<i>double VALOR_DE_PI = 3.14;</i>
+Recursos - Variável	Área de memória, associada a um nome, que pode armazenar valores de um determinado tipo
+Recursos - Constante	"É uma área de memória&nbsp;como as variáveis, só que com o ponto de que seu valor <span style=""color: rgb(224, 27, 36);"">não pode ser modificado</span>"
+GUI Swing - JLabel	Exibe texto e/ou ícones não editáveis.
+GUI Swing -&nbsp;JTextField	Normalmente recebe entrada do usuário.
+GUI Swing -&nbsp;JButton	Dispara um evento quando o usuário clicar nele com o mouse.
+GUI Swing -&nbsp;JCheckBox	Especifica uma opção que pode ser ou não selecionada.
+GUI Swing -&nbsp;JComboBox	Uma lista drop-down dos itens a partir dos quais o usuário pode fazer uma seleção.
+GUI Swing -&nbsp;JList	Uma lista dos itens a partir dos quais o usuário pode fazer uma seleção clicando em qualquer um deles.<br><br>Múltiplos elementos podem ser selecionados.
+GUI Swing - JPanel	Uma área em que os componentes podem ser colocados e organizados.
+Applets - init()	É chamado uma vez para inicializar o applet.<br>É responsável por inicializar campos, criar componentes e exibir imagens.
+Applets - paint()	É chamado depois dos métodos <strong>init</strong> e <strong>start</strong>. <br>O método start também é chamado quando o applet precisa ser repintado.
+Applets - start()	O método start é chamado depois do método init terminar a execução.
+Applets - destroy()	"É chamado quando o applet é removido da 
+memória: Ocorre quando o usuário encerra a sessão de navegação fechando 
+todas as janelas do navegador."
+Applets - stop()	É chamado quando o usuário sai da página e vai para outra página web. Suspende a execução do applet.
+Pacotes - java.awt	<strong>Para uso em recursos gráficos</strong>: botão, barra, caixas de texto, janela, etc. Recursos GUI (Graphical User Interface);
+Pacotes - java.applet	Para uso em <strong>Recursos gerais dos applets;</strong>
+Pacotes - java.util	É uma miscelânea de recursos <strong>utilitários</strong>
