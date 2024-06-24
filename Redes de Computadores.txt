@@ -1,0 +1,30 @@
+#separator:tab
+#html:true
+Comunicação de Dados&nbsp;- Protocolo	Conjunto de regras que governa a comunicação de dados. Ele representa um acordo entre os dispositivos que se comunicam.
+Comunicação de Dados - Mensagem	informação a ser transmitida. Pode ser constituida de texto, números, figuras, áudio e video ou suas combinações
+Comunicação de Dados&nbsp;- Transmissor	Dispositivo que envia a mensagem de dados. Pode ser um computador, uma estação de trabalho, um telefone, uma câmera de video, dentre outros
+Comunicação de Dados&nbsp;- Receptor	É o dispositivo que recebe a mensagem. Pode ser um computador, uma estação de trabalho, um telefone, uma câmera de vídeo, etc.
+Comunicação de Dados - Meio	caminho fisico&nbsp; por onde viaja uma mensagem dirigida ao receptor<br>
+Transmissão de Dados - Simplex	Um dispositivo é o transmissor e o outro é o receptor.<br>Transmissão Unidirecional
+Transmissão - Half-Duplex	Os dispositivos não transmitem e recebem dados ao mesmo tempo por compartilharem o mesmo canal.<br>Transmissão Bidirecional.
+Transmissão - Full-Duplex	A e B podem transmitir e receber dados ao mesmo tempo.<br>A verdadeira comunicação Bidirecional
+Topologia - Ponto a Ponto	"<i>(peer to peer ou p2p)</i>&nbsp;<br>Todos os computadores possuem o mesmo nível hierarquico, não possuem administrador ou servidores definidos.<br><img src=""pc_point-a-point.jpeg"">"
+Estrutura - Cliente Servidor	"É o tipo de rede que possui Administrador e servidores bem definidos. Esse tipo de rede funciona com o paradigma de requisição e resposta.<br><img src=""fdgh1.jpg"">"
+Arquitetura - Servidor	É um computador que disponibiliza serviços (software) ou recursos (hardware) para a rede.
+Arquitetura - Servidor de Arquivo	Disponibiliza espaço para armazenamento de arquivos
+Arquitetura - Servidor de Aplicação	Disponibiliza uma aplicação através da rede.<br>Processa os pedidos enviados pelo computador cliente, retornando apenas com o que é requisitado, evitando o tráfego da massa de dados inteira
+Arquitetura - Servidor de Impressão	Computador que gerencia as impressoras e impressões
+Arquitetura - Servidor Web	Computador com a capacidade de interpretar as linguagens de programação web
+Arquitetura - Servidor de Banco de Dados	Tem a capacidade de armazenar e gerenciar grande volumes de dados
+Arquitetura - Servidor de Comunicação	Gerencia a comunicação entre todos os computadores da rede
+Arquitetura - Servidor de Internet	Compartilha e gerencia a internet
+Redes Abrangentes - LAN	"<i>Local Area Network</i><br>Rede de alta velocidade que permite interligar computadores e outros equipamentos de rede, numa área geográfica limitada (sala de aula ou casa)<br><img src=""6230ee03762e4e5318c33297_61ca0988bf85585f5ccc26b5_Local-Area-Network-Diagram.jpeg"">"
+Redes Abrangentes - MAN	"<i>Metropolitan Area Network</i><br>Localiza-se em uma área geográfica confinada e bem definida, de tamanho médio, como por exemplo um municipio ou região metropolitana.<br><img src=""0e6d1-man2.png"">"
+Redes Abrangentes - WAN	"<i>Wide Area Network</i><br>Distancia superior a uma região metropolitana tão quanto a distancia entre continentes, podendo usar conexões via cabos submarinos, MPLS, via satélite, entre outras&nbsp;<br><img src=""ZYjxa.jpg"">"
+Topologia - Fisica	Representa como as redes estão conectadas e o meio de conexão dos dispositivos de rede, influenciando diretamente diversos pontos considerados críticos, como flexibilidade, velocidade e segurança. (ex. Estrela, Anel e Barramento)<br>É a verdadeira aparência ou layout da rede.&nbsp;
+Topologia - Lógica	Refere-se a maneira como os sinais agem sobre os meios da rede, ou a maneira como os dados são transmitidos através da rede a partir de um dispositivo para o outro sem ter em conta a interligação física dos dispositivos.
+Topologia - Barramento	"<i><u>Topologia Física</u></i><br>Possui um único caminho para o tráfego de dados, na forma de um cabo coaxial, e todas as estações são conectadas a esse mesmo cabo para trocar dados pela rede.<br><img src=""images.jpg"">"
+Topologia - Anel	"<i><u>Ring - Topologia Física<br></u></i>Não interliga as estações diretamente, mas consiste de uma 
+série de repetidores ligados por um meio físico, sendo cada estação 
+ligada a estes repetidores.<br>(ex. IBM Token Ring)<br><img alt=""Rede em anel – Wikipédia, a enciclopédia livre"" src=""250px-Topoloxía_en_anel.png"">"
+Topologia - Estrela	"Todos os dispositivos (nós) são conectados a um dispositivo distribuidor de comunicações central, como um Hub ou (preferencialmente) um Switch.<br>Usada principalmente em redes LAN<br><img alt=""Fábrica de Software » Redes de Computadores – Parte II"" src=""6VDbtIdOe6C_g45HKdqBrAXJucOoNGHgb_mqbT01Sga97SJW9o2gBUDUTdqCZtLfr-825AEruW9VkjKkARoDYyMyr0busLFLCypsQ44N8rcafxzCekG.jpg"">"

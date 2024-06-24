@@ -1,0 +1,6 @@
+#separator:tab
+#html:true
+Segurança - Medidas de controle	controle de acesso,<br><br>controle de inferência,<br><br>controle de fluxo e<br><br>criptografia.
+Modelagem - Minimalismo	Possui um número pequeno de conceitos básicos, que são distintos e não sobrepostos no significado
+BDs Relacionais - Propriedades ACID	Atomicidade, Correção, Isolamento e Durabilidade.
+SQL - TRUNC	Função TRUNC: Trunca um número até um inteiro, removendo a parte decimal ou fracionária do número

@@ -1,0 +1,70 @@
+#separator:tab
+#html:true
+Spam - Spam	E-mails não solicitados, que geralmente são enviados para um grande número de pessoas.
+Golpe - Golpe do site de leilão e venda de produtos.	Um comprador ou vendedor age de má-fé e não cumpre com as obrigações acordadas ou utiliza os dados pessoais e financeiros envolvidos na transação comercial para outros fins.
+Golpe - Phishing (Scam)	Tipo de fraude por meio da qual um golpista tenta obter dados pessoais e financeiros de um usuário, pela utilização combinada de meios técnicos e engenharia social.
+Golpe - Pharming	(tipo de phishing)<br>Envolve a redireção da navegação do usuário para sites falsos, por meio de alterações no serviço de DNS (Domain Name System).
+Golpe - Golpe do site de comercio eletrônico fraudulento	O golpista cria um site fraudulento, com o objetivo especifico de enganar os possíveis clientes que, após efetuarem os pagamentos, não recebem as mercadorias.
+Golpe - Golpe Envolvendo Sites de Compra Coletiva	Golpistas criam sites fraudulentos e os utilizam para anunciar produtos nos sites de compras coletivas e, assim, conseguir grande quantidade de vítimas em um curto intervalo de tempo.
+Golpe - Golpe do site de leilão e venda de produtos.	Um comprador ou vendedor age de má-fé e não cumpre com as obrigações acordadas ou utiliza os dados pessoais e financeiros envolvidos na transação comercial para outros fins.
+Golpe - Boato (Hoax)	Mensagem que possui conteúdo alarmante ou falso e que, geralmente, tem como remetente, ou aponta como autora, alguma instituição, empresa importante ou órgão governamental
+Ataques na Internet - Exploração de Vulnerabilidades	Ataque onde utilizando-se de uma vulnerabilidade, se executam ações maliciosas, como invadir um sistema, acessar informações confidenciais, disparar ataques contra outros computadores ou tornar um serviço inacessível.
+Ataques na Internet - Varreduras em Redes (Scan)	Técnica que consiste em efetuar buscas minuciosas em redes, com o objetivo de identificar computadores ativos e coletar informações sobre eles.
+Ataques na Internet - Falsificação de e-mail (E-mail spoofing)	Técnica que consiste em alterar campos do cabeçalho de um e-mail, de forma a aparentar que ele foi enviado de uma determinada origem quando, na verdade, foi enviado de outra.
+Ataques na Internet - Interceptação de Tráfego (Sniffing)	Técnica que consiste em inspecionar os dados trafegados em redes de computadores, por meio do uso de programas específicos.
+Ataques na Internet - Força Bruta (Brute Force)	Consiste em adivinhar, por tentativa e erro, um nome de usuário e senha e, assim, executar processos e acessar sites, computadores e serviços em nome e com os mesmos privilégios deste usuário.
+Ataques na Internet - Desfiguração de página (Defacement/Pichação)	Técnica que consiste em alterar o conteúdo da página Web de um site.
+Ataques na Internet - Negaça de Serviço  (DoS / Denial of Service)	Técnica pela qual um atacante utiliza um computador para tirar de operação um serviço, um computador ou uma rede conectada a Internet.
+Ataques na Internet - Negação de Serviço Distribuída (DDoS/Distributed Denial os Service)	Quando um conjunto de computadores é utilizado para tirar de operação um serviço, um computador ou uma rede conectada a Internet.
+Spam - UCE (Unsolicited Commercial E-mail)	Tipo de mensagem indesejada que possui conteúdo exclusivamente comercial.
+Spam - Harvesting	Consiste em coletar endereços de e-mail por meio de varreduras em páginas Web e arquivos de listas de discussão, entre outros.
+Outros Riscos - Cookies	Pequenos arquivos que são Gravados em seu computador quando você acessa sites na Internet e que são reenviados a estes mesmos sites quando novamente visitados.
+Tipos de Cookies	De sessão (excluido no fim da sessão);<br>Persistente (fica gravado);<br>First-Party (dominio atual);<br>Last-Party (dominio externo).
+Outros Riscos - Códigos Móveis 	São utilizados por desenvolvedores para incorporar maior funcionalidade e melhorar a aparência de páginas Web.
+Tipos de Códigos Moveis	Programas e Applets Java<br>Javascripts<br>Componentes (ou controles) ActiveX
+Outros Riscos - Janelas de Pop-Up	São aquelas que aparecem automaticamente e sem permissão, sobrepondo a janela do navegador Web, após você acessar um site.
+Outros Riscos - Plug-ins, Complementos e Extensões.	Programas geralmente desenvolvidos por terceiros e que voce pode instalar em seu navegador Web ou leitor de e-mails para prover funcionalidades extras.
+Outros Riscos - Links Patrocinados 	Propaganda de um produto ou site paga para o site de busca apresentar o link em destaque quando palavras especificas sao pesquisadas.
+Malware - Virus	...
+Malware - Worm	...
+Malware - Bot	Zumbi
+Malware - Botnet	...
+Malware - Spyware	Espião 
+Malware - Backdoor	Porta
+Malware - Cavalo de Troia (Trojan)	...
+Malware - Rootkit	...
+Mecanismo de Segurança - Politica de Segurança 	..
+Mecanismo de Segurança - Notificação de Incidentes e Abusos	..
+Mecanismo de Segurança - Contas e Senhas	.
+Mecanismo de Segurança - Criptografia	..
+Mecanismo de Segurança - Copias de Segurança (Backup)	.
+Mecanismo de Segurança - Registros de Eventos (Logs)	.
+Mecanismo de Segurança - Ferramentas Antimalware	.
+Mecanismo de Segurança - Firewall pessoal	
+Mecanismo de Segurança - Filtro Antispam	.
+Mecanismo de Segurança - Anonymizer	.
+Mecanismo de Segurança - Sites e Complementos para Expansão de Links	.
+Mecanismo de Segurança - Programa para Verificação de Vulnerabilidades 	..
+Mecanismo de Segurança - Teste de Reputação de Site	.
+Mecanismo de Segurança - Filtro de Bloqueio de Propagandas	.
+Mecanismo de Segurança - Filtro de Códigos Móveis 	.
+Criptografia - Chave Simetrica	..
+Criptografia - Chave Assimetrica	utiliza duas chaves distintas: uma publica, que pode ser livremente divulgada para decodificar, e uma privada, que deve ser mantida em segredo por seu dono.
+Criptografia - AES	Método criptográfico de CHAVE SIMETRICA
+Criptografia - Blowfish	Método criptográfico de CHAVE SIMETRICA
+Criptografia - RC4	Método criptográfico de CHAVE SIMETRICA
+Criptografia - 3DES	Método criptográfico de CHAVE SIMETRICA
+Criptografia - IDEA	Método criptográfico de CHAVE SIMETRICA
+Criptografia - Diffie-Hellman	"Método criptográfico de CHAVE <span style=""background-color: rgb(0, 0, 255);"">ASSIMETRICA</span>"
+Criptografia - RSA	"Método criptográfico de CHAVE <span style=""background-color: rgb(0, 0, 255);"">ASSIMETRICA</span>"
+Criptografia - DSA	"Método criptográfico de CHAVE&nbsp;<span style=""background-color: rgb(0, 0, 255);"">ASSIMETRICA</span>"
+Criptografia - ECC	"Método criptográfico de CHAVE&nbsp;<span style=""background-color: rgb(0, 0, 255);"">ASSIMETRICA</span>"
+Criptografia - Função de Resumo (Hash)	..
+Criptografia - Assinatura Digital	A assinatura digital permite comprovar a autenticidade e a integridade de uma informação, ouseja, que ela foi realmente gerada por quem diz ter feito isto e que ela nao foi alterada.
+Criptografia - Certificado Digital	registro eletrônico composto por um conjunto de dados que distingue uma entidade e associa a ela uma chave pública. Ele pode ser emitido para pessoas, empresas, equipamentos ou serviços na rede (por exemplo, um site Web) e pode ser homologado para diferentes usos,como confidencialidade e assinatura digital.
+Criptografia - GnuPG	Software livre alternativo ao conjunto de softwares criptográficos PGP da Symantec
+Criptografía - Autoridade Certificadora (AC)	Órgão responsável pela emissão e veracidade de Certificados Digitais
+Criptografía - LCR	(Lista de Certificados Revogados)<br>Arquivo eletrônico publicado periodicamente pela AC, contendo o numero de série dos certificados que não são mais válidos e a data de revogação.
+Criptografía - Dados Básicos que compõem um Certificado Digital (6)	• versão e numero de série do certificado;<br>• dados que identificam a AC que emitiu o certificado;<br>• dados que identificam o dono do certificado (para quem ele foi emitido);<br>• chave publica do dono do certificado;<br>• validade do certificado (quando foi emitido e ate quando é válido);<br>• assinatura digital da AC emissora e dados para verificação da assinatura.
+Criptografía - Certificado Autoassinado	É aquele no qual o dono e o emissor são a mesma entidade.
+Criptografia - Certificado EV SSL	(Extended Validation Secure Socket Layer)<br>certificado emitido sob um processo mais rigoroso de validação do solicitante. Inclui a verificação de que a empresa foi legalmente registrada, encontra-se ativa e que detém o registro do domínio para o qual o certificadoserá emitido, além de dados adicionais, como o endereço fisico

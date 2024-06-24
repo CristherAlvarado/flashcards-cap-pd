@@ -1,0 +1,4 @@
+#separator:tab
+#html:true
+Buffering	técnica que consiste na utilização de uma área na memória principal para transferência de dados entre os dispositivos de Entrada/Saída e a memória, a fim de liberar os dispositivos para executarem outras tarefas
+Palavra	unidade de informação do sistema processador/Memória Principal.<br><br>Conjunto de bits que representam uma informação útil para os computadores<br><br>Representa o valor de um número (um dado) ou uma instrução de máquina.<br>
