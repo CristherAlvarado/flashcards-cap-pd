@@ -1,4 +1,42 @@
 #separator:tab
 #html:true
+#tags column:3
+"Unidade de medida ""b"""	Bit = Menor unidade de informação do computador. Se refere à velocidade/transmissão de dados	Unidades::de::medida
+"Unidade de medida ""B"""	Byte = Grupo de bits (8). Se refere ao armazenamento.	Unidades::de::medida
+Grupos de bits existentes e suas quantidades	Nibble = 4b<br>Byte = 8b<br>Word = 16b<br>Double Word = 32b<br>Quad Word = 64b	Unidades::de::medida
+Porta Not	"Inverte as entradas<br><img src=""Porta not.jpeg"">"	Circuito::Lógico
+Porta And	"Basta uma entrada 0 para a resposta ser 0<br><img src=""Porta and.jpeg"">"	Circuito::Lógico
+Porta Or	"Basta uma entrada ser 1 para a resposta ser 1<br><img src=""Porta or.jpeg"">"	Circuito::Lógico
+Porta Xor	"Paridade de bits. Entradas diferentes = 1 / Entradas iguais = 0<br><img src=""Porta xou.jpeg"">"	Circuito::Lógico
+Porta Nand	"Negação da porta And<br><img src=""Porta nand.jpeg"">"	Circuito::Lógico
+Porta Nor	"Negação da porta Or<br><img src=""Porta nor.jpeg"">"	Circuito::Lógico
+Porta Nxor	"Negação da porta Xor<br><img src=""Porta nxor.jpeg"">"	Circuito::Lógico
+Downsizing	Termo para categorizar a diminuição dos componentes eletrônicos/computadores.	Introdução
+Escala de integração SSI	Small Scale Integration - Integração em pequena escala = 1 a 10 portas	Introdução
+Escala de integração MSI	Medium Scale Integration - Integração em média escala = até 100 portas	Introdução
+Escala de integração LSI	Large Scale Integration - Integração em grande escala = até 100.000 portas	Introdução
+Escala de integração VLSI	Very Large Scale Integration - Integração em escala muito grande = acima de 100.000 portas	Introdução
+Unidades básicas de um computador	Processador, memória, periféricos, barramento, programa	Introdução
+Componentes de uma CPU	Unidade de controle(UC), unidade de lógica e aritmética(ULA), registradores e relógio	Introdução
+Função da memória	Armazenamento e recuperação de dados (= ler)	Introdução
+Periférico de entrada	Entram com informações	Introdução
+Periférico de saída	Mostram as informações	Introdução
+Periférico de entrada e saída	Entram com as informações e as mostram	Introdução
+Barramento (Bus)	Ligações internas dos circuitos	Introdução
+Linguagem de máquina	Linguagem de baixo nível (Assembly)	Introdução
+Tradutor	Programa que converte outros programas para a linguagem de máquina.	Introdução
+Nível 0 (Lógica digital)	Executa diretamente as instruções (ou microinstruções) submetidos pelo nível 1. Nesse nível encontra-se os circuitos eletrônicos e os diversos sistemas (módulos)&nbsp; que compõem o computador (UCP, memória, E/S, dispositivos de comunicação e interfaces).	Modelo::multinível
+Nível 1 (Microprocessador)	Compõe o que é conhecido como firmware e tem por função interpretar as instruções que lhe são submetidas.	Modelo::multinível
+Firmware	Programas que são armazenados na fabricação de um dispositivo<br><br>Ex.: Programas da memória ROM de um roteador	Modelo::multinível
+Read Only Memory	Memória ROM - não volátil<br><br>BIOS - Basic Input/Output System<br>POST - Power On Self Test<br>SETUP - Programa de configuração da BIOS	Modelo::multinível
+RISC	Intruções simples e fixas<br><br>São processadores que não tem um microprograma. A execução é feita diretamente no hardware .	Arquitetura
+CISC	Instruções complexas e variadas<br><br>Processador que tem um microprograma e executa as tarefas.	Arquitetura
+Níve 2 (Máquina convencional)	Reside no Kernel do S.O., que interpreta os utilitários, a linguagem de controle e as rotinas que residem no Nível 3	Modelo::multinível
+Kernel	Núcleo do sistema operacional. Parte mais importante do S.O.	Arquitetura
+Nível 3 (Sistema Operacional)	Nível que o usuário interage diretamente ou indiretamente. Ex.: Aplicativo de interface gráfica que mostra as funcionalidades do S.O.	Modelo::multinível
+Nível 4 (Linguagem de Montagem)	Chamada de Assembly (baixo nível)	Modelo::multinível
+Nível 5 (Linguagens Orientadas para o Problema)	Consiste em diferentes máquinas virtuais, cada uma definida pelo ambiente criado por sua linguagem de programação de alto nível.	Modelo::multinível
+Nível 6 (Superiores)	Constituídos por sistemas projetados para criar shells = máquinas virtuais especialmente adequadas para certas aplicações. Ex.: Word, Excel, Lótus, etc.	Modelo::multinível
+Memória	"Pode guardar(armazenar) um elemento ou um grupo de elementos e pode realizar a recuperação(leitura) do elemento.<br><br><img src=""Hierarquia de Memória.jpeg"">"	Arquitetura
 Buffering	técnica que consiste na utilização de uma área na memória principal para transferência de dados entre os dispositivos de Entrada/Saída e a memória, a fim de liberar os dispositivos para executarem outras tarefas
 Palavra	unidade de informação do sistema processador/Memória Principal.<br><br>Conjunto de bits que representam uma informação útil para os computadores<br><br>Representa o valor de um número (um dado) ou uma instrução de máquina.<br>
