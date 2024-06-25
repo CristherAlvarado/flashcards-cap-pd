@@ -21,7 +21,7 @@ Diretório - /lib	Bibliotecas compartilhadas pelos programas
 Diretório - /lost+found	"<div>• Local para a gravação de arquivos/diretórios </div><div>recuperados pelo utilitário fsck.ext2. </div><div>• Cada partição possui seu próprio diretório </div><div>lost+found.</div>"
 Diretório - /mnt	Ponto de montagem temporário
 Diretório - /proc	sistema de arquivos virtual do kernel
-Diretório - /sys	verificação config do sistema ou modificar o funcionamento de dispositivos
+Diretório - /sys	Verificar a config do sistema ou modificar o funcionamento de dispositivos
 Diretório - /sbin	Programas usados pelo superusuário(root)
 Diretório - /tmp	Armazena arquivos temporários
 Diretório - /usr	Contém a maior parte do programas dos usuários
@@ -41,11 +41,11 @@ Manipulação de Diretorios -&nbsp;Comando /who	<i>/who [opções] (quem?)</i><b
 Manipulação de Diretorios -&nbsp;Comando /whoami	Mostra o nome que usou para se conectar ao sistema. É util quando você usa várias contas e não sabe com qual nome entrou no sistema :-)
 Manipulação de Diretorios -&nbsp;Comando /finger	<i>finger [usuário] [usuário@host]</i><br>Mostra detalhes sobre os usuários de um sistema. Se for usado sem parâmetro, mostra os dados de todos os usuários conectados atualmente ao seu sistema.
 
-"Manipulação de Redes - #telnet"	"<i>#telnet [opções] [ip/dns] [porta]</i><br>Permite acesso a um computador remoto."
-"Manipulação de Redes - #ftp"	<i>ftp [ip/dns]</i><br>Permite a transferencia de arquivos do computador remoto/local e vice e versa.<br>o file transfer protocol é o sistema de transmissão de arquivos mais usados na internet.
-"Manipulação de Redes - #dnsdomainname"	Mostra o nome do domínio de seu sistema.<br>Mostra o nome de domínio dns do sistema, ou seja, o nome de dominio do host local.
-"Manipulação de Redes - #hostname"	Mostra ou muda o nome de seu computador na rede.<br>Quando usado sem pârametros, o nome da máquina é exibido.
-"Manipulação de Redes - #talk"	"#talk [usuário] [tty]<br>talk talk [usuário@host]<br>Inicia a conversa com outro usuário de sistema em uma rede local ou internet"
+Manipulação de Redes - #telnet"	"<i>#telnet [opções] [ip/dns] [porta]</i><br>Permite acesso a um computador remoto."
+Manipulação de Redes - #ftp"	<i>ftp [ip/dns]</i><br>Permite a transferencia de arquivos do computador remoto/local e vice e versa.<br>o file transfer protocol é o sistema de transmissão de arquivos mais usados na internet.
+Manipulação de Redes - #dnsdomainname"	Mostra o nome do domínio de seu sistema.<br>Mostra o nome de domínio dns do sistema, ou seja, o nome de dominio do host local.
+Manipulação de Redes - #hostname"	Mostra ou muda o nome de seu computador na rede.<br>Quando usado sem pârametros, o nome da máquina é exibido.
+Manipulação de Redes - #talk"	"#talk [usuário] [tty]<br>talk talk [usuário@host]<br>Inicia a conversa com outro usuário de sistema em uma rede local ou internet"
 Manipulação de Arquivos - Comando /du	<i>/du [opções]</i><br>Mostra o espaço ocupado por arquivos e subdiretórios do diretório atual.
 "<div>Manipulação de Arquivos - Comando <span style=""font-weight: bold;"">DF</span></div>"	<div>Mostra o espaço livre/ocupado de cada partição.</div>
 
