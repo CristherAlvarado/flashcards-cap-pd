@@ -1,3 +1,77 @@
 #separator:tab
 #html:true
-Windows	É um sistema operacional
+#tags column:3
+Algoritmo de substituição de cache - LRU	Least Recently Used. Remove o bloco de cache que não foi utilizado há mais tempo.	Algoritmo::de::substituição
+Algoritmo de substituição de cache - LFU	Least Frequently Used. Remove o bloco de cache que foi menos utilizado.	Algoritmo::de::substituição
+Algoritmo de substituição de cache - LIFO	Last In, First Out. Remove o bloco de cache que foi adicionado mais recentemente.	Algoritmo::de::substituição
+Algoritmo de substituição de cache - FIFO	First In, First Out. Remove o bloco de cache que foi adicionado há mais tempo.	Algoritmo::de::substituição
+Exclusão mútua	"Mecanismo que <b>impede que dois ou mais processos 
+acessem o mesmo recurso simultaneamente</b>, garantindo 
+que o recurso seja acessado por <u>apenas um processo por 
+vez</u>, enquanto os demais processos deverão aguardar o 
+término da utilização do recurso"	Processos
+"Ciclo de execução de uma 
+instrução de máquina sem operando"	"I - Início;<br>II - buscar a próxima instrução;<br>III - incrementar o contador de
+instrução;<br>IV - decodificar código de operação;<br>V - se não existir
+operando, executar a operação;<br>VI - escrever o resultado;<br>VII - calcular o
+endereço da próxima instrução;<br>VIII - e retornar ao início.<br><br><img src=""Ciclo de Instrução.jpeg"">"	Ciclo::de::Instrução
+Etapas de um ciclo de instrução básico	"I -&nbsp;buscar uma instrução na memória;<br>II -&nbsp;interpretar a operação a ser realizada;<br>III -&nbsp;buscar os dados onde estiverem armazenados, para
+trazê-los até o processador;<br>IV -&nbsp;executar efetivamente a operação com o(s) dado(s);<br>V - guardar o resultado (se houver algum) no local definido
+na instrução.<br><br><img src=""Ciclo de Instrução.jpeg"">"	Ciclo::de::Instrução
+MPC (MicroProgram Counter)	"É o registrador de
+endereço da memória de controle"	Microinstruções
+MIR (MicroInstruction Register)	"É o registrador de dados
+da memória de controle"	Microinstruções
+Sequenciador	"É responsável pela execução de todos os
+passos necessários à execução de uma única instrução"	Microinstruções
+Guarda microinstruções	Memória de Controle	Microinstruções
+Itens do espaço de endereçamento de um processo	Programa executável, dados do programa e sua pilha	Processos
+SISD (Single Instruction Single Data)	"Esta arquitetura engloba os sistemas que suportam uma única sequência de instruções e apenas uma
+sequência de dados"	Sistemas::Computacionais
+SIMD (Single Instruction Multiple Data)	"Sistemas com uma única sequência de instruções e múltiplas sequências de
+dados."	Sistemas::Computacionais
+MISD (Multiple Instruction Single Data)	"Permite múltiplas sequências de instruções e uma única sequência de dados. <u>Obs.: Não
+existe, até o momento, nenhum computador desenvolvido com esta arquitetura.</u>"	Sistemas::Computacionais
+MIMD (Multiple Instruction Multiple Data)	"Trata múltiplas sequências de instruções e múltiplas sequências de dados, nas
+quais se enquadram os sistemas com múltiplos processadores."	Sistemas::Computacionais
+Sistema com Múltiplos Processadores <b>Fracamente</b> Acoplados&nbsp;(loosely coupled)	"Um Sistema
+Operacional de Rede (SOR) permite que um host compartilhe
+seus recursos, como a capacidade de armazenamento, com
+outros hosts ligados por uma rede.<br><br><img src=""Fracamente acoplados.jpeg"">"	Sistemas::Computacionais
+Sistema com Múltiplos Processadores <b>Fortemente</b> Acoplados (tightly coupled)	"Existem vários processadores compartilhando uma
+única memória física (shared memory) e dispositivos de entrada/saída sendo gerenciados por apenas um sistema operacional.<br><br><img src=""Fortemente acoplados.jpeg"">"	Sistemas::Computacionais
+Circular com Prioridades	"Tipo de 
+escalonamento pode passar um processo do estado de execução
+para o estado de pronto por sofrer preempção por prioridade ou
+tempo.<br><br><img src=""Circular com prioridades.jpeg"">"	Processos
+Modo usuário	"O processador só pode executar 
+instruções conhecidas como não privilegiadas."	Processador
+Modo kernel	"O processador permite a aplicação acessar todas as 
+instruções do processador. O modo de acesso é determinado 
+pelo conteúdo de um registrador que o hardware verifica para permitir 
+ou não instruções privilegiadas."	Processador
+Memória Virtual por Segmentação	"É a técnica de gerência de memória onde o espaço de endereçamento
+virtual é dividido em blocos de tamanhos diferentes chamados segmentos. Na técnica de segmentação, um
+programa é dividido logicamente em sub-rotinas e estruturas de dados, que são alocadas em segmentos na
+memória principal."	Gerência::de::Memória
+Memória Virtual por Paginação	"É a técnica de gerência de memória em que o espaço de endereçamento
+virtual e o espaço de endereçamento real são divididos em blocos de mesmo tamanho chamados páginas."	Gerência::de::Memória
+Páginas no espaço virtual	Páginas virtuais	Gerência::de::Memória Paginação
+Páginas no espaço real	Páginas reais ou frames	Gerência::de::Memória Paginação
+Sistemas Multiprogramáveis/Multitarefa	"Os recursos computacionais são compartilhados entre os diversos usuários e aplicações. <br><br>Ex.: enquanto um programa espera por uma operação de leitura ou
+gravação em disco, outros programas podem estar sendo processados neste mesmo intervalo de tempo."	Tipos::de::Sistemas::Operacionais
+Sistemas Monoprogramáveis/Monotarefa	"Se caracterizam por permitir que o processador, a memória e os periféricos permaneçam exclusivamente dedicados à execução de um único
+programa."	Tipos::de::Sistemas::Operacionais
+Sistemas de tempo real	"Não existe a ideia de fatia de tempo. Um programa utiliza o 
+processador o tempo que for necessário ou até que apareça 
+outro mais prioritário."	Sistemas::Multiprogramáveis
+Sistemas de tempo compartilhado X S. de tempo real	"Enquanto em sistemas de <b>tempo compartilhado</b> o tempo de processamento
+<b>pode variar sem comprometer as aplicações em execução</b>, nos sistemas de <b>tempo real</b> os tempos de
+processamento <b>devem estar dentro de limites rígidos</b>, que devem ser obedecidos, caso contrário poderão
+ocorrer problemas irreparáveis."	Sistemas::Multiprogramáveis
+Sistemas Batch	"Não exige a interação do usuário com a aplicação.&nbsp;Todas
+as entradas e saídas de dados da aplicação são implementadas por algum tipo de memória secundária,
+geralmente arquivos em disco."	Sistemas::Multiprogramáveis
+Sistemas de tempo compartilhado (time-sharing)	"Permitem que diversos programas sejam
+executados a partir da divisão do tempo do processador em pequenos intervalos, denominados fatia de
+tempo (time-slice)."	Sistemas::Multiprogramáveis
