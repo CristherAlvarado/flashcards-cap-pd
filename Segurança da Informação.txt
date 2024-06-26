@@ -1,65 +1,69 @@
 #separator:tab
 #html:true
 Spam - Spam	E-mails não solicitados, que geralmente são enviados para um grande número de pessoas.
-Golpe - Golpe do site de leilão e venda de produtos.	Um comprador ou vendedor age de má-fé e não cumpre com as obrigações acordadas ou utiliza os dados pessoais e financeiros envolvidos na transação comercial para outros fins.
-Golpe - Phishing (Scam)	Tipo de fraude por meio da qual um golpista tenta obter dados pessoais e financeiros de um usuário, pela utilização combinada de meios técnicos e engenharia social.
-Golpe - Pharming	(tipo de phishing)<br>Envolve a redireção da navegação do usuário para sites falsos, por meio de alterações no serviço de DNS (Domain Name System).
-Golpe - Golpe do site de comercio eletrônico fraudulento	O golpista cria um site fraudulento, com o objetivo especifico de enganar os possíveis clientes que, após efetuarem os pagamentos, não recebem as mercadorias.
-Golpe - Golpe Envolvendo Sites de Compra Coletiva	Golpistas criam sites fraudulentos e os utilizam para anunciar produtos nos sites de compras coletivas e, assim, conseguir grande quantidade de vítimas em um curto intervalo de tempo.
-Golpe - Golpe do site de leilão e venda de produtos.	Um comprador ou vendedor age de má-fé e não cumpre com as obrigações acordadas ou utiliza os dados pessoais e financeiros envolvidos na transação comercial para outros fins.
-Golpe - Boato (Hoax)	Mensagem que possui conteúdo alarmante ou falso e que, geralmente, tem como remetente, ou aponta como autora, alguma instituição, empresa importante ou órgão governamental
+Golpes na Internet -&nbsp;Golpe do site de leilão e venda de produtos.	Um comprador ou vendedor age de má-fé e não cumpre com as obrigações acordadas ou utiliza os dados pessoais e financeiros envolvidos na transação comercial para outros fins.
+Golpes na Internet -&nbsp;Phishing (Scam)	Tipo de fraude por meio da qual um golpista tenta obter dados pessoais e financeiros de um usuário, pela utilização combinada de meios técnicos e engenharia social.
+Golpes na Internet -&nbsp;Pharming	(tipo de phishing)<br>Envolve a redireção da navegação do usuário para sites falsos, por meio de alterações no serviço de DNS (Domain Name System).
+Golpes na Internet - Golpe do site de comercio eletrônico fraudulento	O golpista cria um site fraudulento, com o objetivo especifico de enganar os possíveis clientes que, após efetuarem os pagamentos, não recebem as mercadorias.
+Golpes na Internet -&nbsp;Golpe do Site de Compra Coletiva	Golpistas criam sites fraudulentos e os utilizam para anunciar produtos nos sites de compras coletivas e, assim, conseguir grande quantidade de vítimas em um curto intervalo de tempo.
+Golpes na Internet - Boato (Hoax)	Mensagem que possui conteúdo alarmante ou falso e que, geralmente, tem como remetente, ou aponta como autora, alguma instituição, empresa importante ou órgão governamental
 Ataques na Internet - Exploração de Vulnerabilidades	Ataque onde utilizando-se de uma vulnerabilidade, se executam ações maliciosas, como invadir um sistema, acessar informações confidenciais, disparar ataques contra outros computadores ou tornar um serviço inacessível.
-Ataques na Internet - Varreduras em Redes (Scan)	Técnica que consiste em efetuar buscas minuciosas em redes, com o objetivo de identificar computadores ativos e coletar informações sobre eles.
-Ataques na Internet - Falsificação de e-mail (E-mail spoofing)	Técnica que consiste em alterar campos do cabeçalho de um e-mail, de forma a aparentar que ele foi enviado de uma determinada origem quando, na verdade, foi enviado de outra.
-Ataques na Internet - Interceptação de Tráfego (Sniffing)	Técnica que consiste em inspecionar os dados trafegados em redes de computadores, por meio do uso de programas específicos.
-Ataques na Internet - Força Bruta (Brute Force)	Consiste em adivinhar, por tentativa e erro, um nome de usuário e senha e, assim, executar processos e acessar sites, computadores e serviços em nome e com os mesmos privilégios deste usuário.
-Ataques na Internet - Desfiguração de página (Defacement/Pichação)	Técnica que consiste em alterar o conteúdo da página Web de um site.
-Ataques na Internet - Negaça de Serviço  (DoS / Denial of Service)	Técnica pela qual um atacante utiliza um computador para tirar de operação um serviço, um computador ou uma rede conectada a Internet.
-Ataques na Internet - Negação de Serviço Distribuída (DDoS/Distributed Denial os Service)	Quando um conjunto de computadores é utilizado para tirar de operação um serviço, um computador ou uma rede conectada a Internet.
+Ataques na Internet - Scan	<i>Varreduras em Redes</i><br>Técnica que consiste em efetuar buscas minuciosas em redes, com o objetivo de identificar computadores ativos e coletar informações sobre eles.
+Ataques na Internet - E-mail spoofing	<i>Falsificação de e-mail</i><br>Técnica que consiste em alterar campos do cabeçalho de um e-mail, de forma a aparentar que ele foi enviado de uma determinada origem quando, na verdade, foi enviado de outra.
+Ataques na Internet - Sniffing	<i>Interceptação de Tráfego</i><br>Técnica que consiste em inspecionar os dados trafegados em redes de computadores, por meio do uso de programas específicos chamados de <i>sniffers</i>.
+Ataques na Internet - Força Bruta&nbsp;	<i>(Brute Force)</i><br>Consiste em adivinhar, por tentativa e erro, um nome de usuário e senha e, assim, executar processos e acessar sites, computadores e serviços em nome e com os mesmos privilégios deste usuário.
+Ataques na Internet - Desfiguração de página&nbsp;	<i>(Defacement/Pichação)</i><br>Técnica que consiste em alterar o conteúdo da página Web de um site.
+Ataques na Internet - DoS	<i>Negaça de Serviço / Denial of Service</i><br>Técnica pela qual um atacante utiliza um computador para tirar de operação um serviço, um computador ou uma rede conectada a Internet.
+Ataques na Internet - DDoS	<i>Negação de Serviço Distribuída / Distributed Denial os Service</i><br>Quando um conjunto de computadores é utilizado para tirar de operação um serviço, um computador ou uma rede conectada a Internet.
 Spam - UCE (Unsolicited Commercial E-mail)	Tipo de mensagem indesejada que possui conteúdo exclusivamente comercial.
 Spam - Harvesting	Consiste em coletar endereços de e-mail por meio de varreduras em páginas Web e arquivos de listas de discussão, entre outros.
 Outros Riscos - Cookies	Pequenos arquivos que são Gravados em seu computador quando você acessa sites na Internet e que são reenviados a estes mesmos sites quando novamente visitados.
-Tipos de Cookies	De sessão (excluido no fim da sessão);<br>Persistente (fica gravado);<br>First-Party (dominio atual);<br>Last-Party (dominio externo).
+Outros Riscos - Tipos de Cookies	De sessão (excluido no fim da sessão);<br>Persistente (fica gravado);<br>First-Party (dominio atual);<br>Last-Party (dominio externo).
 Outros Riscos - Códigos Móveis 	São utilizados por desenvolvedores para incorporar maior funcionalidade e melhorar a aparência de páginas Web.
 Tipos de Códigos Moveis	Programas e Applets Java<br>Javascripts<br>Componentes (ou controles) ActiveX
 Outros Riscos - Janelas de Pop-Up	São aquelas que aparecem automaticamente e sem permissão, sobrepondo a janela do navegador Web, após você acessar um site.
 Outros Riscos - Plug-ins, Complementos e Extensões.	Programas geralmente desenvolvidos por terceiros e que voce pode instalar em seu navegador Web ou leitor de e-mails para prover funcionalidades extras.
 Outros Riscos - Links Patrocinados 	Propaganda de um produto ou site paga para o site de busca apresentar o link em destaque quando palavras especificas sao pesquisadas.
-Malware - Virus	...
-Malware - Worm	...
-Malware - Bot	Zumbi
-Malware - Botnet	...
-Malware - Spyware	Espião 
-Malware - Backdoor	Porta
-Malware - Cavalo de Troia (Trojan)	...
-Malware - Rootkit	...
-Mecanismo de Segurança - Politica de Segurança 	..
-Mecanismo de Segurança - Notificação de Incidentes e Abusos	..
-Mecanismo de Segurança - Contas e Senhas	.
-Mecanismo de Segurança - Criptografia	..
-Mecanismo de Segurança - Copias de Segurança (Backup)	.
-Mecanismo de Segurança - Registros de Eventos (Logs)	.
-Mecanismo de Segurança - Ferramentas Antimalware	.
-Mecanismo de Segurança - Firewall pessoal	
-Mecanismo de Segurança - Filtro Antispam	.
-Mecanismo de Segurança - Anonymizer	.
-Mecanismo de Segurança - Sites e Complementos para Expansão de Links	.
-Mecanismo de Segurança - Programa para Verificação de Vulnerabilidades 	..
-Mecanismo de Segurança - Teste de Reputação de Site	.
-Mecanismo de Segurança - Filtro de Bloqueio de Propagandas	.
-Mecanismo de Segurança - Filtro de Códigos Móveis 	.
-Criptografia - Chave Simetrica	..
-Criptografia - Chave Assimetrica	utiliza duas chaves distintas: uma publica, que pode ser livremente divulgada para decodificar, e uma privada, que deve ser mantida em segredo por seu dono.
-Criptografia - AES	Método criptográfico de CHAVE SIMETRICA
-Criptografia - Blowfish	Método criptográfico de CHAVE SIMETRICA
-Criptografia - RC4	Método criptográfico de CHAVE SIMETRICA
-Criptografia - 3DES	Método criptográfico de CHAVE SIMETRICA
-Criptografia - IDEA	Método criptográfico de CHAVE SIMETRICA
+Malware - Virus	Programa ou parte de um programa de computador, normalmente malicioso, que se propaga inserindo cópias de si mesmo e se tornando parte de outros programas e arquivos
+Malware - Worm	"É um programa capaz de se
+propagar automaticamente pelas
+redes, enviando cópias de si mesmo
+de computador para computador.<br>São grandes responsáveis pelo
+consumo de recursos e degradam o
+desempenho da rede e dos
+computadores."
+Malware - Bot	Bot é um programa que dispõe de mecanismos de comunicação com o invasorque permitem que seja controlado remotamente.
+Malware - Botnet	"Botnet é o nome para uma
+rede comporta por unúmeros computadores
+zumbis"
+Malware - Spyware	Programa projetado para monitorar as atividades de um sistema e enviar as informações coletadas para terceiros. 
+Malware - Backdoor	Programa que permite o retorno de um invasor a um computador comprometido, por meio da inclusão de serviços criados ou modificados para este fim.
+Malware - Cavalo de Troia (Trojan)	Programa que, além de executar as funções para as quais foi aparentemente projetado, também executa outras funções, normalmente maliciosas, e sem o conhecimento do usuário
+Malware - Rootkit	Programas e técnicas que permite esconder e assegurar a presença de um invasor ou de outro código malicioso em um computador comprometido
+Mecanismo de Segurança - Politica de Segurança 	Define os direitos e as responsabilidades de cada um em relação à segurança dos recursos computacionais que utiliza e as penalidades às quais está sujeito.
+Mecanismo de Segurança - Notificação de Incidentes e Abusos	"Devem ser notificados eventos adversos relacionados à segurança dos
+sistemas de computação ou das redes de computadores, em desrespeito à política de segurança ou à política de uso aceitável da organização"
+Mecanismo de Segurança - Criptografia	Usando criptografia você pode proteger seus dados contra acessos indevidos, tanto os que trafegam pela Internet como os já gravados em seu computador
+Mecanismo de Segurança - Registros de Eventos (Logs)	Logs são registros de atividades gerados por programas e serviços de um computador.Detectar o uso indevido do computador, Detecta ataque, Rastrea ações dos usuários e Detecta problemas de hardware.<br>São essenciais para notificação de incidentes, pois permitem que diversas informações importantes sejam detectadas como Data e hora, Fuso hurário, Endereço IP de origem, Portas envolvidas, Protocolos
+Mecanismo de Segurança - Ferramentas Antimalware	São aquelas que procuram detectar e, então, anular ou remover os códigos maliciosos de um computador. Antivírus, antispyware, antirootkit e antitrojan são exemplos de ferramentas deste tipo.
+Mecanismo de Segurança - Firewall pessoal	É um tipo específico de firewall que é utilizado para proteger um computador contra acessos não autorizados vindos da Internet.
+Mecanismo de Segurança - Filtro Antispam	Os filtros antispam já vem integrados à maioria dos Webmails e programas leitores de e-mails e permite separar os e-mails desejados dos indesejados (spams).
+Mecanismo de Segurança - Anonymizer	Seu navegador não recebe cookies e as informações por ele fornecidas não são repassadas para o site visitado (anonymizers)
+Criptografia - Chave Simetrica	"Chamada de criptografia de chave secreta ou
+única.<br>Utiliza a mesma chave para codificar e decodificar uma
+informação.<br>É mais veloz devido a sua baixa
+complexidade<br>"
+Criptografia - Chave Assimetrica	Utiliza duas chaves distintas: uma publica, que pode ser livremente divulgada para decodificar, e uma privada, que deve ser mantida em segredo por seu dono.
+Criptografia - AES	"<i>Advanced Encryption Standard</i><br>Método criptográfico de <span style=""background-color: rgb(0, 0, 255);"">CHAVE SIMETRICA</span>"
+Criptografia - Blowfish	"Método criptográfico de <span style=""background-color: rgb(0, 0, 255);"">CHAVE SIMETRICA</span>"
+Criptografia - RC4	"<i>Rivest Cipher 4</i><br>Método criptográfico de <span style=""background-color: rgb(0, 0, 255);"">CHAVE SIMETRICA</span>"
+Criptografia - 3DES	"<i>Triple Data Encryption Standard</i><br>Método criptográfico de <span style=""background-color: rgb(0, 0, 255);"">CHAVE SIMETRICA</span>"
+Criptografia - IDEA	"<i>International Data Encryption Algorithm</i><br>Método criptográfico de <span style=""background-color: rgb(0, 0, 255);"">CHAVE SIMETRICA</span>"
 Criptografia - Diffie-Hellman	"Método criptográfico de CHAVE <span style=""background-color: rgb(0, 0, 255);"">ASSIMETRICA</span>"
-Criptografia - RSA	"Método criptográfico de CHAVE <span style=""background-color: rgb(0, 0, 255);"">ASSIMETRICA</span>"
-Criptografia - DSA	"Método criptográfico de CHAVE&nbsp;<span style=""background-color: rgb(0, 0, 255);"">ASSIMETRICA</span>"
-Criptografia - ECC	"Método criptográfico de CHAVE&nbsp;<span style=""background-color: rgb(0, 0, 255);"">ASSIMETRICA</span>"
-Criptografia - Função de Resumo (Hash)	..
+Criptografia - RSA	"<i>Rivest–Shamir–Adleman</i><br>Método criptográfico de CHAVE <span style=""background-color: rgb(0, 0, 255);"">ASSIMETRICA</span>"
+Criptografia - DSA	"<i>Digital Signature Algorithm</i><br>Método criptográfico de CHAVE&nbsp;<span style=""background-color: rgb(0, 0, 255);"">ASSIMETRICA</span>"
+Criptografia - ECC	"<i>Elliptical curve cryptography</i><br>Método criptográfico de CHAVE&nbsp;<span style=""background-color: rgb(0, 0, 255);"">ASSIMETRICA</span>"
+Criptografia - Função de Resumo (Hash)	Método criptográfico que, quando aplicado sobre uma informação, independente do tamanho que ela tenha, gera um resultado único e de tamanho fixo, chamado hash.<br>Não é possível realizar o processamento inverso,&nbsp;qualquer alteração produzirá um hash distinto
 Criptografia - Assinatura Digital	A assinatura digital permite comprovar a autenticidade e a integridade de uma informação, ouseja, que ela foi realmente gerada por quem diz ter feito isto e que ela nao foi alterada.
 Criptografia - Certificado Digital	registro eletrônico composto por um conjunto de dados que distingue uma entidade e associa a ela uma chave pública. Ele pode ser emitido para pessoas, empresas, equipamentos ou serviços na rede (por exemplo, um site Web) e pode ser homologado para diferentes usos,como confidencialidade e assinatura digital.
 Criptografia - GnuPG	Software livre alternativo ao conjunto de softwares criptográficos PGP da Symantec
@@ -68,3 +72,167 @@ Criptografía - LCR	(Lista de Certificados Revogados)<br>Arquivo eletrônico pub
 Criptografía - Dados Básicos que compõem um Certificado Digital (6)	• versão e numero de série do certificado;<br>• dados que identificam a AC que emitiu o certificado;<br>• dados que identificam o dono do certificado (para quem ele foi emitido);<br>• chave publica do dono do certificado;<br>• validade do certificado (quando foi emitido e ate quando é válido);<br>• assinatura digital da AC emissora e dados para verificação da assinatura.
 Criptografía - Certificado Autoassinado	É aquele no qual o dono e o emissor são a mesma entidade.
 Criptografia - Certificado EV SSL	(Extended Validation Secure Socket Layer)<br>certificado emitido sob um processo mais rigoroso de validação do solicitante. Inclui a verificação de que a empresa foi legalmente registrada, encontra-se ativa e que detém o registro do domínio para o qual o certificadoserá emitido, além de dados adicionais, como o endereço fisico
+Criptografia - Chave de sessão	Uso da chave simétrica para a criptografia e chave assimétrica para a troca segura da chave secreta
+Criptografia - SSL	"<i>Secure Sockets Layer<br></i>Método criptográfico de <span style=""background-color: rgb(0, 0, 255);"">CHAVE DE SESSÃO</span><i><br></i>"
+Criptografia - PGP	"<i>Pretty Good Privacy</i><br>Método criptográfico de&nbsp;<span style=""background-color: rgb(0, 0, 255);"">CHAVE DE SESSÃO</span>"
+Criptografia - S/MIME	"<i>Secure/Multipurpose Internet Mail Extensions<br></i>Método criptográfico de&nbsp;<span style=""background-color: rgb(0, 0, 255);"">CHAVE DE SESSÃO</span>"
+Criptografia - DES	"<i>Data Encryption Standard</i><br>Método criptográfico de&nbsp;<span style=""background-color: rgb(0, 0, 255);"">CHAVE SIMETRICA</span>"
+Criptografia - RC5	"<i>Rivest Cipher 5</i><br>Método criptográfico de <span style=""background-color: rgb(0, 0, 255);"">CHAVE SIMETRICA</span>"
+Criptografia - Serpent	"Método criptográfico de&nbsp;<span style=""background-color: rgb(0, 0, 255);"">CHAVE SIMETRICA</span>"
+Criptografia - Twofish	Método criptográfico de&nbsp;CHAVE SIMETRICA
+Criptografia - SHA-1	"<div><div><div><div><i>Secure Hash Algorithm 1</i></div></div></div></div><div>Método de <span style=""background-color: rgb(0, 0, 255);"">HASH</span><i><br></i></div>"
+Criptografia - SHA-256	"<i>Secure Hash Algorithm 256</i><br>Método de <span style=""background-color: rgb(0, 0, 255);"">HASH</span>"
+Criptografia - MD5	"<i>message-digest algorithm</i><br>Método de <span style=""background-color: rgb(0, 0, 255);"">HASH</span>"
+Criptografia - Cifra de Substituição	"Cada letra ou grupo de letras é substituído por outra letra ou
+grupo de letras"
+Criptografia - Cifra de Transposição	Reordenam as letras, mas não as disfarçam
+Criptografia - Criptografia	"Considerada como a ciência e a arte
+de escrever mensagens em forma cifrada ou em código, é um dos principais mecanismos de segurança que você pode usar para se proteger dos riscos associados ao uso da Internet"
+Segurança na Internet - Principios	Confidencialidade, Integridade e Disponibilidade
+Segurança na Internet - Confidencialidade	Propriedade que garante que a informação não esteja disponivel ou revelada a pessoas, entidades ou sistemas não autorizados.
+Segurança na Internet - Integridade	Propriedade que evita a manipulação não autorizada da informação, ou seja, deve estar imune a quaisquer modificações
+Segurança na Internet - Disponibilidade	Propriedade que visa garantir que uma informação esteja sempre disponivel ao ser requisitada por um usuário legítimo.
+Segurança na internet - Furto de Identidade	"Risco o qual&nbsp;pode ocorrer de alguém
+tentar se passar por você e executar ações
+em seu nome, levando outras pessoas a
+acreditarem que estão se relacionando com
+você, e colocando em risco a sua imagem ou
+reputação"
+Segurança na Internet - Furto e perda de dados	Risco -&nbsp;Os dados presentes em seus equipamentosconectados à Internet podem ser furtados eapagados, pela ação de ladrões, atacantes ecódigos maliciosos
+Segurança na Internet - Conteúdos impróprios ou ofensivos	"Risco -&nbsp;Ao navegar você pode se deparar com
+páginas que contenham pornografia, que
+atentem contra a honra ou que incitem o ódio
+e o racismo."
+Segurança na Internet -&nbsp;Pessoas mal-intencionadas	Existem pessoas que se aproveitam da falsa sensação de anonimato da Internet paraaplicar golpes, tentar se passar por outras pessoas e cometer crimes como, por exemplo, estelionato, pornografia infantil e sequestro.
+Segurança na Internet - Invasão de privacidade	"Risco - Divulgacão de informações pessoais pode comprometer a sua privacidade e não há como controlar que elas não serão repassadas.<br>Os sites costumam ter políticas próprias
+de privacidade e podem alterá-las sem aviso prévio,
+tornando público aquilo que antes era privado."
+Segurança na Internet - Divulgação de boatos	Risco - As informações na Internet podem se propagar rapidamente e atingir um grande número de pessoas em curto período de tempo a divulgação de informações falsas, que podem gerar pânico e prejudicar pessoas e empresas
+Segurança na Internet -&nbsp;Dificuldade de exclusão	Risco - Aquilo que é divulgado na Internet nem sempre pode ser totalmente excluído ou ter o acesso controlado.
+"Segurança na Internet -&nbsp;Dificuldade de detectar e expressar
+sentimentos"	Risco - na comunicação via Internet não há como observar as expressões faciais ou o tom da voz das outras pessoas, assim como elas não podem observar você (a não ser que vocês estejamutilizando webcams e microfones).
+Segurança na Internet -&nbsp;Uso excessivo	Risco - O uso desmedido da Internet, assim como de outras tecnologias, pode colocar em risco a sua saúde física, diminuir a sua produtividade e afetar a sua vida social ou profissional
+Segurança na Internet -&nbsp;Plágio e violação de direitos autorais	Risco - A cópia, alteração ou distribuição não autorizada de conteúdos e materiais protegidos pode contrariar a lei de direitos autorais e resultar em problemas jurídicos e em perdas financeiras.
+Segurança na Internet -&nbsp;Dificuldade de manter sigilo	Risco - Na Internet, caso não sejam tomados os devidos cuidados, as informações podem trafegar ou ficar armazenadas de forma que outras pessoas tenham acesso ao conteúdo
+Golpes na Internet -&nbsp; Engenharia Social	Prática de má-fé, usada por golpistas para tentar explorar a ganância, a vaidade e a boa-fé ou abusar da ingenuidade e da confiança de outras pessoas, a fim de aplicar golpes, ludibriar ou obter informações sigilosas e importantes
+Golpes na Internet - Furto de Identidade	Ato pelo qual uma pessoa tenta se passar por outra, atribuindo-se uma falsa identidade, com o objetivo de obter vantagens indevidas.<br>Exemplos: <u>Acesso não autorizado</u> de sua conta de e-mail e <u>Envio mensagens se passando por outra pessoa</u> adulterando campo do remetente
+Golpes na Internet - Advance fee fraud	<i>Fraude de Antecipação de Recursos</i><br>É aquela na qual um golpista procura induzir uma pessoa a fornecer informações confidenciais ou a realizar um pagamento adiantado, com a promessa de futuramente receber algum tipo de benefício futuro maior que o que seria investido pela vítima.
+Ataques na Internet - Wireshark	Software de Sniffing (Sniffer)
+Ataques na Internet - Ettercap	Software de Sniffing (Sniffer)
+Ataques na Internet - Hashcat	Software de Brute Force
+Ataques na Internet - John the Ripper	Software de Brute Force
+Ataques na Internet - Burp Suite	Software de Brute Force
+Ataques na Internet - Hydra	Software de Brute Force
+Malware - Malware	Programas especificamente desenvolvidos para executar ações danosas e atividades maliciosas em um computador.
+Malware - Dependem de Execução	Virus
+Malware - Zombie	"Um computador infectado
+por um bot"
+Malware - Keylogger	Captura e armazena teclas do teclado do computador digitadas pelo usuário
+Malware - Screenlogger	Capaz de armazenar a posição do cursor e tela apresentados pelo monitor do usuário quando o mouse for clicado.
+Malware - Addware	Projetado para exibir propagandas de forma legitima ou não
+Malware - Trojan Downloader	Instala outros códigos obtidos da internet
+Malware - Trojan Dropper	"Instala outros códigos imputidos no
+próprio trojan"
+Malware - Trojan Backdoor	Inclui Backdoors
+Malware - Trojan DoS	"Instala ferramentas para negação de
+serviço"
+Malware - Trojan Destrutivo	Apaga arquivos ou diretórios
+Malware - Trojan Clicker	Direciona a navegação do usuário para sites específicos
+Malware - Trojan Proxy	Instala servidor proxy para possibilitar navegação anônima e envio de spam
+Malware - Trojan Spy	Instala programas espiões para capturar informações sensíveis
+Malware - Trojan Banker	Específico para capturar informações bancárias
+Malware - Recebidos automaticamente pela rede	Worm e Bot
+Malware - Recebido por e-mail	Virus, Worm, Bot, Trojan e Spyware
+Malware - Baiaxdo de sites na Internet	Virus, Worm, Bot, Trojan e Spyware
+Mlaware - Compartilhamento de arquivos	Virus, Worm, Bot, Trojan e Spyware
+Malware - Uso de mídias removíveis infectadas	Virus, Worm, Bot, Trojan e Spyware
+Malware - Obtido em Redes Sociais	Virus, Worm, Bot, Trojan e Spyware
+Malware - Obtido em mensagens instantâneas	Virus, Worm, Bot, Trojan e Spyware
+Malware - Inserido por um invasor	Worm, Bot, Trojan, Spyware, Backdoor e Rootkit
+Malware - Obtido por Ação de outro código malicioso	Worm, Bot, Trojan, Spyware, Backdoor e Rootkit
+Malware - Instalado por Execução de um arquivo infectado	Virus
+Malware - Instalado por Execução explícita do código malicioso	Worm, Bot, Trojan e Spyware
+Malware - Instalado via execução de outro código malicioso	Backdoor e Rootkit
+Malware - Instalado por exploração de vulnerabilidades	Worm, Bot, Backdoor e Rootkit
+Malware - Insere cópia de si próprio em arquivos	Virus
+Malware - Insere cópia de si próprio automaticamente pela rete	Worm e Bot
+Malware - Insere cópia de si próprio por e-mail	Worm e Bot
+Malware - Não se propaga	Trojan, Spyware, Backdoor e Rootkit
+Malware - Altera e/ou remove arquivos	Virus, Trojan e Rootkit
+Malware - Consome grande quantidade de recursos	Worm e Bot
+Malware - Furta informações sensiveis	Bot, Trojan e Spyware
+Malware - Instala outros códigos maliciosos	Worm, Bot, Trojan e Rootkit
+Malware - Possibilita o retorno do invasor	Backdoor e Rootkit
+Malware - Envia spam e phishing	Bot
+Malware - Desfere ataques na Internet	Worm e Bot
+Malware - Procura se manter escondido	Vírus, Spyware, Backdoor e Rootkit
+Outros Riscos - Malvertising	"Criação de anúncios maliciosos e, por meio
+de serviços de publicidade, apresentá-los em
+diversas páginas Web."
+Outros Riscos - Programas e distribuição de arquivos (P2P)	São aqueles que permitem que os usuários compartilhem arquivos entre si. (Kazaa, Gnutella e BitTorrent).<br>Tem como riscos Acesso Indevido, Obtenção de arquivos maliciosos e Violação de direitos autorais
+Outros Riscos - Compartilhamento de Recursos	"Alguns sistemas operacionais permitem que
+você compartilhe com outros usuários
+recursos do seu computador, como
+diretórios, discos, e impressoras.<br>Tem como riscos o acesso não autorizado a recursos ou informação sensíveis e o seu uso por atacantes caso não sejam definidas senhas para controle de acesso"
+Mecanismo de Segurança -&nbsp;Filtro antiphishing	Serve para alertar os usuários quando uma página suspeita de ser falsa e acessada
+Mecanismo de Segurança -&nbsp;Filtro de janelas de pop-up	Permite que você controle a exibição de janelas de pop-up
+Mecanismo de Segurança - Filtro de códigos móveis	Permitem que você controle a execução de códigos Java e JavaScript (NoScript)
+Mecanismo de Segurança - Filtro de bloqueio de propagandas	Permitem o bloqueio de sites conhecidos por apresentarem propagandas (Adblock)
+Mecanismo de Segurança - Teste de Reputação de site	Permitem determinar a reputação dos sites. WOT (Web of Trust)
+Mecanismo de Segurança - Programa para verificação de vulnerabilidades	Permitem verificar vulnerabilidades nos programas instalados em seu computador - PSI (Secunia Personal Software Inspector)
+Mecanismo de Segurança - Sites e complementos para expansão de links curtos	Permitem verificar qual é o link de destino de um link curto (LongURL)
+Mecanismo de Segurança -&nbsp;Política de senha	Define as regras sobre o uso de senhas nos recursos computacionais
+Mecanismo de Segurança -&nbsp;Política de backup	Regras sobre a realização de cópias de segurança
+Mecanismo de Segurança -&nbsp;Política de Privacidade	Tratamento de informações pessoais
+Mecanismo de Segurança -&nbsp;Política de Confidencialidade	Tratamento de informações&nbsp;institucionais
+Mecanismo de Segurança -&nbsp;Política de Uso Aceitável (PUA)	“Termo de uso”
+Mecanismo de Segurança - Contas e Senhas	Contas e senhas são atualmente o mecanismo de autenticação mais usado para o controle de acesso a sites e serviços oferecidos pela Internet.
+Mecanismo de Segurança - Backup	<i>Cópias de Segurança<br></i>A cópia segura dos dados feita de forma preventiva.<i><br></i>Importancias: Proteção dos dados, Recuperação de versões e Arquivamento
+Mecanismo de Segurança - Antivirus	O Antivírus é a ferramenta que possui mais funcionalidades que, apesar de inicialmente coibir vírus, com o passar do tempo incorporou funcionalidades de outras fazendo que caíssem em desuso.
+Contas e Senhas -&nbsp;Definição Elaboração de senhas	Uma senha bem elaborada é aquela que é difícil de ser descoberta (forte) e fácil de ser lembrada.
+Contas e Senhas - Elaboração de senhas - O que usar?	• Números Aleatórios<br>•&nbsp;Grande quantidade de caracteres<br>• Diferentes tipos de caractere<br>• Caracteres de uma frase<br>• Frase longa<br>• Substituições de caracteres
+Contas e Senhas - Elaboração de senhas - O que não usar?	• Qualquer tipo de dado pessoal<br>• Sequências de teclado<br>• Palavras que façam parte de listas.
+Uso Seguro da Internet -&nbsp;HTTP (TCP 80)	<i>Hypertext Transfer Protocol<br></i>Informações trafegam em texto claro, ou seja, sem o uso de criptografia.<br>Não garante que os dados não possam ser interceptados, coletados, modificados ou retransmitidos.
+Uso Seguro da Internet -&nbsp;HTTPS (TCP 443)	<i>Hypertext Transfer Protocol Secure<br></i>Utiliza certificados digitais para assegurar a identidade, tanto do site de destino como a sua própria, caso você possua um.<br>• Utiliza métodos criptográficos e outros protocolos, como o SSL (Secure Sockets Layer) e o TLS (Transport Layer Security), para assegurar a confidencialidade e a integridade das informação.<br>• Provê autenticacação, integridade e confidencialidade, como requisitos de segurança.
+Uso Seguro da Internet -&nbsp;E-Commerce	• Certifique-se da procedência do site e da utilização de conexões seguras<br>• Acesse somente digitando o endereço diretamente no navegador Web<br>• Não utilize um site de busca para acessar o site do seu banco<br>• Pesquise na Internet referências sobre o site antes de efetuar uma compra<br>• Desconfie de preços muito abaixo dos praticados no mercado<br>• Não realize transações bancárias de computadores de terceiros e Wifi públicos<br>• Nunca forneça dados de cartão de crédito em sites sem conexão segura ou em e-mails não criptografados
+Uso Seguro da Internet - Internet Banking	• Certifique-se da procedência do site e da utilização de conexões seguras<br>• Acesse somente digitando o endereço diretamente no navegador Web<br>• Não utilize um site de busca para acessar o site do seu banco<br>• Forneça apenas uma posição do seu cartão de segurança<br>• Não forneça senhas ou dados pessoais a terceiros, especialmente por telefone<br>• Desconsidere mensagens de instituições bancárias com as quais você não tenha relação<br>• Não realize transações bancárias de computadores de terceiros e Wifi públicos<br>• Ao instalar o módulo de segurança confirme ser o legítimo expedido pela empresa.
+Uso Seguro da Internet - Webmails	• Seja cuidadoso ao acessar a página de seu Webmail para não ser vítima de phishing<br>• Não utilize um site de busca para acessar seu Webmail<br>• Seja cuidadoso ao elaborar sua senha de acesso ao Webmail<br>• Configure opções de recuperação de senha, como um endereço de e-mail alternativo, uma questão de segurança e um número de telefone celular<br>• Evite acessar seu Webmail em computadores de terceiros, caso seja necessário, habilite a navegação anônima<br>• Certifique-se de utilizar conexões seguras sempre que acessar seu Webmail, especialmente ao usar redes Wi-Fi públicas
+Uso Seguro da Internet - Navegadores Web	• Mantenha o navegador atualizado e com todos os<br>patches aplicados;<br>• Configure para verificar novas atualizações<br>automaticamente;<br>• Permita a execução de programas Java e JavaScript, porém assegure-se de utilizar complementos, como o NoScript<br>• Programas ActiveX apenas de sites conhecidos e confiáveis<br>• Tenha cuidado ao utilizar Cookies<br>• Utilize a chave mestra caso memorize senhas no navegador
+Uso Seguro da Internet -&nbsp;Leitores de Email	• Mantenha-o atualizado e com todos os patches aplicados;<br>• Configure para verificar novas atualizações automaticamente;<br>• Não utilize-o como navegador Web, desligue a visualização em formato HTML<br>• Tenha cuidado ao utilizar Cookies<br>• Prefira digitar o endereço no navegador e não clicar em links recebidos<br>• Desconfie de anexos mesmo tendo-os recebidos de pessoas aparentemente confiáveis<br>• Utilize ferramentas antimalware antes de baixar arquivos de Email<br>• Configure o Sistema Operacional para exibir a extensão dos anexos<br>• Desligue as opções de executar automaticamente arquivos recebidos por Email<br>• Desabilite a execução de JavaScript e programas Java<br>• Use sempre criptografia
+Contas e Senhas - Alteração de Senhas	• Você deve alterar a sua senha imediatamente sempre que desconfiar que ela pode ter sido descoberta ou que o computador no qual você a utilizou pode ter sido invadido ou infectado.<br>• A senha precisa ser alterada regularmente para garantir a confidencialidade.<br>• Não convém que sejam alteradas em períodos muito curtos (&lt; 3 meses) ou muito longos (&gt; 1 ano).
+Contas e Senhas -&nbsp;Gerenciamento de contas e senhas - O que evitar?	• Reutilizar senhas<br>• Usar opções como “Lembre-se de mim” e “Continuar conectado”<br>• Salvar as senhas no navegador Web
+Contas e Senhas -&nbsp;Gerenciamento de contas e senhas - O que fazer?	• Criar grupos de senhas, de acordo com o risco envolvido<br>• Usar um programa gerenciador de contas/senhas<br>• Gravar em um arquivo criptografado
+Recuperação de senhas - Como reestabelecer acesso perdido?	• Defina uma pergunta/resposta de segurança<br>• Cadastre email de recuperação para envio&nbsp;de senha esquecida<br>• Cadastre dicas de segurança<br>• Defina um número de telefone celular para recuperação.
+Segurança em Dispositivos Móveis - O que Fazer em Caso de Perda ou Furto?	• Infome sua operadora e solicite o bloqueio do seu número (chip)<br>• Altere as senhas que possam estar nele armazenadas<br>• Bloqueie cartões de crédito cujo número esteja armazenado em seu dispositivo móvel<br>• Ative a localização remota e avalie uma formatação completa
+Segurança em Dispositivos Móveis -&nbsp;Ao se Desfazer do seu Dispositivo Móvel	•&nbsp;Apague todas as informações nele contidas<br>• Restaure a opções de fábrica.
+Segurança em Dispositivos Móveis -&nbsp;Ao acessar Redes	• Seja cuidadoso ao usar redes Wi-Fi públicas<br>• Mantenha interfaces de comunicação, como bluetooth, infravermelho e Wi-Fi desabilitadas<br>• Configure a conexão&nbsp;bluetooth para que seu dispositivo não seja identificado
+Segurança em Dispositivos Móveis -&nbsp;Proteja seu dispositivo móvel e os dados nele armazenados	• Informações sensíveis sempre em formato criptografado<br>• Faça backups periódicos<br>• Mantenha controle físico sobre ele<br>• Use conexão segura sempre que a comunicação envolver dados confidenciais<br>• Não siga links recebidos por meio de mensagens eletrônicas<br>• Senha de acesso sempre bem elaborada<br>• Configure-o para que seja localizado e bloqueado remotamente<br>• Configure-o, quando possível, para que os dados sejam apagados após um determinado número de tentativas de desbloqueio sem sucesso
+Segurança em Dispositivos Móveis -&nbsp;Ao Usar seu Dispositivo Móvel	• Instale um programa antimalware antes<br>• Mantenha o Sistema operacional atualizado e com todas as atualizações aplicadas<br>• fique atento às notícias veiculadas no site do fabricante, principalmente<br>• Seja cuidadoso ao instalar aplicacações desenvolvidas por terceiros<br>• Seja cuidadoso ao usar aplicativos de redes sociais, principalmente os baseados em geolocalização
+Segurança em Dispositivos Móveis -&nbsp;Antes de Adquirir seu Dispositivo Móvel	• Considere os mecanismos de segurança e escolha aquele que considerar mais seguro<br>• Caso opte por adquirir um modelo já usado, procure restaurar as configurações originais <br>• Evite adquirir um dispositivo móvel que tenha sido ilegalmente desbloqueado (jailbreak)
+Segurança de Redes - Ameaça -&nbsp;Furto de dados	Interceptação de tráfego ou exploração de vulnerabilidades
+Segurança de Redes - Ameaça -&nbsp;Uso indevido de recursos	Ao comprometer um dispositivo e utilizá-lo indevidamente
+Segurança de Redes - Ameaça -&nbsp;Varredura	Descobrir outros computadores e falhas na rede
+Segurança de Redes - Ameaça - Interceptação de tráfego&nbsp;	Interceptação sem autorização de tráfego não criptografado
+Segurança de Redes - Ameaça -&nbsp;Exploração de vulnerabilidades	Uso de uma falha para tomar controle de um dispositivo
+Segurança de Redes - Ameaça -&nbsp;Ataque de negação de serviço	Envio de grande número de mensagens para um dispositivo se tornar indisponível
+Segurança de Redes - Ameaça -&nbsp;Ataque de força bruta	Tentativa e erro de descoberta de senhas
+Segurança de Redes - Ameaça -&nbsp;Ataque de personificação	Introduzir ou substituir um dispositivo de rede para induzir outros a se conectarem a este, ao invés do dispositivo legítimo
+Segurança de Redes - Riscos Wifi	• Não há a necessidade de acesso físico a um ambiente restrito, como ocorre com as redes cabeadas.<br>• Muitas pessoas as instalam em casa sem qualquer cuidado com configurações mínimas de seguraça<br>• Em redes públicas os dados que não estiverem criptografados podem ser indevidamente coletados por atacantes<br>• Pode ser propositadamente disponibilizada por atacantes para atrair usuários, a fim de interceptar o tráfego e redirecionamento para páginas maliciosas
+Segurança de Redes - Resolução de Riscos - WEP	<i>(Wired Equivalent Privacy)</i><br>Primeiro mecanismo de segurança
+Segurança de Redes - Resolução de Riscos - WPA	<i>(Wi-Fi Protected Access)<br></i>Desenvolvido para resolver algumas das fragilidades do WEP (Mínimo)
+Segurança de Redes - Resolução de Riscos - WPA-2	(Wi-Fi Protected Access 2)<br>Similar ao WPA, mas com criptografia considerada mais forte&nbsp;
+Segurança de Redes - Bluetooth	Padrão para tecnologia de comunicação de dados e voz, baseado em radiofrequência e destinado à conexão de dispositivos em curtas distâncias
+Segurança de Redes - Banda Larga Móvel	• Banda larga móvel refere-se às tecnologias de acesso sem fio, de longa distância, por meio da rede de telefonia móvel, especialmente 3G e 4G<br>• Também pode ser adicionada a computadores e dispositivos móveis que ainda não tenham esta capacidade,<br>por meio do uso de modems específicos.
+Segurança de Redes - Banda Larga Fixa	• Computadores conectados via banda larga fixa, geralmente, possuem boa velocidade de conexão, mudam o endereço IP com pouca frequência e ficam conectados à Internet por longos períodos<br>• Caso um atacante tenha acesso ao seu equipamento de banda larga, ele poderá alterar configurações,<br>• bloquear o seu acesso ou desviar suas conexões para sites fraudulentos.
+Segurança de Redes - Cuidados Wi-Fi	• Habilite o Wi-Fi e Ad-hoc no seu computador apenas quando for utilizar<br>• Conecte-se em rede que forneçam criptografia entre cliente e AP.<br>• Considere o uso de criptografia como PGP (E- mails) e SSH para conexões remotas e ainda VPN<br>• Evite acessar serviços que não sejam por HTTPS<br>• Evite utilizar WEP<br>• Utilize WPA-2 sempre que possível e WPA no mínimo.
+Códigos Móveis - NoScript	"O complemento ""NoScript"" permite você controlar o JavaScript que é executado em páginas individuais da web ou para bloqueá-lo completamente"
+Segurança de Computadores - Conta Administrador	<i>(administrator/admin/root)</i><br>Fornece controle completo sobre o computador
+Segurança de Computadores - Conta Padrão	<i>(standard/limitada/limited)<br></i>Considerada de uso “normal” e que contém os privilégios que a grande maioria dos usuários necessita
+Segurança de Computadores - Conta Convidado	<i>(guest)</i><br>Destinada aos usuários eventuais, não possui senha e não pode ser acessada remotamente
+Segurança de Computadores - Patches	Um patch de segurança é uma atualização de software projetada para corrigir vulnerabilidades de segurança em um sistema.
+Segurança de Computadores - Hot Fixes	"Um hotfix é uma atualização de software lançada fora do 
+ciclo normal de atualização ou destinada a ser aplicada a um sistema ativo; frequentemente para corrigir um bug."
+Segurança de Computadores - Service Packs	"Um pacote de serviços é a denominação para um pacote de 
+correções para determinado programa ou sistema operacional, quando o número de correções recentes se torna muito grande."
+Privacidade - Do Not Track (DNT)	Do Not Track (Não rastrear) é uma configuração do navegador da web que adiciona um sinal ao cabeçalho do seu navegador, informando a outros sites que você não deseja o rastreamento de seus cookies.
+Privacidade - Navegação Anonima	A navegação privada/ anónima é um recurso de privacidade em alguns navegadores da web. Ao operar nesse modo, o navegador cria uma sessão temporária que é isolada da sessão principal do navegador e dos dados do usuário.
