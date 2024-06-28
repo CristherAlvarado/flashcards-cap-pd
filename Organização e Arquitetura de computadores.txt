@@ -38,5 +38,59 @@ Nível 4 (Linguagem de Montagem)	Chamada de Assembly (baixo nível)	Modelo::mult
 Nível 5 (Linguagens Orientadas para o Problema)	Consiste em diferentes máquinas virtuais, cada uma definida pelo ambiente criado por sua linguagem de programação de alto nível.	Modelo::multinível
 Nível 6 (Superiores)	Constituídos por sistemas projetados para criar shells = máquinas virtuais especialmente adequadas para certas aplicações. Ex.: Word, Excel, Lótus, etc.	Modelo::multinível
 Memória	"Pode guardar(armazenar) um elemento ou um grupo de elementos e pode realizar a recuperação(leitura) do elemento.<br><br><img src=""Hierarquia de Memória.jpeg"">"	Arquitetura
-Buffering	técnica que consiste na utilização de uma área na memória principal para transferência de dados entre os dispositivos de Entrada/Saída e a memória, a fim de liberar os dispositivos para executarem outras tarefas
-Palavra	unidade de informação do sistema processador/Memória Principal.<br><br>Conjunto de bits que representam uma informação útil para os computadores<br><br>Representa o valor de um número (um dado) ou uma instrução de máquina.<br>
+Buffering	técnica que consiste na utilização de uma área na memória principal para transferência de dados entre os dispositivos de Entrada/Saída e a memória, a fim de liberar os dispositivos para executarem outras tarefas	
+Palavra	Unidade de informação do sistema processador/Memória Principal.<br><br>Conjunto de bits que representam uma informação útil para os computadores<br><br>Representa o valor de um número (um dado) ou uma instrução de máquina.<br>	
+Tempo de acesso/leitura da memória	"Indica quanto tempo a 
+memória gasta para colocar uma informação na barra de dados, após uma determinada posição ter sido 
+endereçada."	Memórias
+Tipos de memórias assíncronas	FPM, EDO, BEDO	Memórias
+Tipos de memórias síncronas	SDRAM, DDR SDRAM II, RAMBUS, SLDRAM	Memórias
+Informação por ciclo das memórias SDRAM, DDR, Rambus	"SDRAM (1 inf. por ciclo)<br>DDR (2 inf. por ciclo)<br>Rambus (4 inf. por ciclo)<br><br><img src=""paste-710eacd8520269fbdd9d5a558f7c129cf45a6ea5.jpg"">"	Memórias
+Conceito - Ciclo de memória	"Utilizado apenas em memória eletrônicas, é também chamado de ciclo de tempo do 
+sistema de memória ou simplesmente ciclo de memória, é o período de tempo decorrido entre duas 
+operações sucessivas de acesso a memória, sejam de escrita ou leitura. (Obs.: quanto menor, melhor)"	Memórias
+Características das memórias dinâmicas	"- Formadas por capacitores<br>- Refresh (período de recarga)<br>- Wait States (tempo de espera por parte do processador até que a memória esteja preparada para ler ou gravar dados)<br><br><img src=""paste-7d31473eb007fe7919602efa718dbc75a3253479.jpg"">"	Memórias
+Características da memória estática	"- Formadas por transistores<br>- Não tem Refresh<br>- Não tem Wait States<br><br><img src=""paste-c6731d42876cb42714d2549100931c23d493208e.jpg"">"	Memórias
+Memória dinâmica VS. Memória Estática	"<u><b>Dinâmica</b></u><br>- Lenta<br>- Ex.: RAM<br>- Capacitores<br>- Alta Densidade<br><br><b><u>Estática<br></u></b>- Rápida<br>- Ex.: Cache<br>- Transistores<br>- Baixa densidade<br><br><img src=""paste-676b1da59b244477e91525bb0a790c13397a22a9.jpg"">"	Memórias
+Conceito de densidade de memórias	É a quantidade de bits e espaço físico<br><br>Dinâmica = alta densidade | Memória de tamanho fixo (ex.: 1GB, 16GB, 32GB continuam do mesmo tamanho)<br>Estática = baixa densidade | Vai crescendo, pois precisa de muito espaço para pouca informação	Memórias
+SDRAM - Synchronous Dynamic Random Access Memory	"A memória de aceso aleatório síncrono e dinâmico é toda memória de acesso aleatório que sincroniza automaticamente com a temporização de trabalho do processador.<br><br><u><b><span style=""color: rgb(255, 0, 0);"">NÃO </span>É A JUNÇÃO DE SRAM COM DRAM</b></u>"	Memórias
+Conceito de capacidade	"É a quantidade de informação que pode ser armazenada em uma memória, a unidade de 
+medida mais comum é o byte, embora também possam ser usadas outras unidades como células (no caso 
+MP), setores (no caso de discos) e bits (no caso de registradores).<br><br>--&gt; QUANTO MAIOR, MELHOR"	Memórias
+Conceito de volatilidade	"Uma memória não volátil é a que retém a informação armazenada quando a energia elétrica 
+é desligada. Memória volátil é aquela que perde a informação armazenada quando a energia elétrica 
+desaparece."	Memórias
+Memória volátil	PERDEM AS INFORMAÇÕES QUANDO DESLIGAMOS<br><br>EX.: RAM REGISTRADORES CACHE	Memórias
+Memórias não voláteis	MANTÉM AS INFORMAÇÕES MESMO QUANDO DESLIGAMOS<br><br>EX.:&nbsp;HD / SSD / ROM / MEMÓRIAS FLASH	Memórias
+Conceito de temporariedade	"Trata-se de uma característica que indica o conceito de tempo de permanência da 
+informação em um dado tipo de memória."	Memórias
+Memórias temporárias e exemplos	"AS INFORMAÇÕES SÃO APAGADAS MESMO QUE O USUÁRIO NÃO INTERFIRA
+TRABALHAM COM SOBREPOSIÇÃO<br><br>EX.:&nbsp;BUFFER / CACHE / RAM"	Memórias
+Memórias permanentes e exemplos	SÓ APAGAM QUANDO O USUÁRIO INTERFERE<br><br>EX.:&nbsp;HD / SSD / ROM / MEMÓRIAS FLASH	Memórias
+Barramento de dados	"Que interliga o <b>RDM (MBR) à MP</b>, para <u>transferência de informações ou
+dados</u> entre MP e UCP. É <u><b>bidirecional</b></u>, isto é, ora os sinais percorrem o barramento da UCP para a MP
+(operação escrita), ora percorrem o caminho inverso.<br><br><img src=""paste-a101b85e39260bba1b3fbee7d20fcb371cabd48d.jpg"">"	Memórias
+Barramento de endereços	"Que <u><b>interliga o REM (MAR) à MP</b></u> para transferência dos bits que
+representam um determinado endereço. É <b><u>unidirecional</u></b>. Possui tantos fios (ou linhas de transmissão)
+quantos são os bits que representam o valor de um endereço.<br><br><img src=""paste-a101b85e39260bba1b3fbee7d20fcb371cabd48d.jpg"">"	Memórias
+Barramento de controle	"Que interliga a <u><b>UCP (unidade de controle) à MP</b></u> para passagem de sinais de
+controle durante uma operação de leitura ou escrita. É <b><u>bidirecional</u></b>, porque a UCP pode enviar sinais de
+controle para a MP, como sinal indicador de que a operação é de leitura (READ) ou de escrita (WRITE) e
+a MP pode enviar sinais do tipo WAIT (para a UCP se manter aguardando o término de uma operação).<br><br><img src=""paste-a101b85e39260bba1b3fbee7d20fcb371cabd48d.jpg"">"	Memórias
+Registrador de dados da memória (RDM ou MBR)	"Registrador que armazena temporariamente a
+informação que está sendo transferido da MP para UCP (leitura) ou da UCP para MP (escrita). <u>Permite
+armazenar a mesma quantidade de bits do barramento de dados.</u><br><br><img src=""paste-92c60153d95a7d74804a1febfeff46699ac44850.jpg"">"	Memórias
+Registrador de endereços da memória (REM ou MAR)	"Armazena temporariamente o endereço de
+acesso a uma posição de memória. Permite armazenar a mesma quantidade de bits do barramento de
+endereços.<br><br>MAR = MEMORY ADDRESS REGISTER<br><br><img src=""paste-92c60153d95a7d74804a1febfeff46699ac44850.jpg"">"	Memórias
+Conceito de localidade	"É o fenômeno relacionado com o modo
+pelo qual os programas em média são escritos e executados pela UCP. O conceito de localidade está
+relacionado à utilização da Memória Cache.<br><br><img src=""paste-adc049cdc87110a3571427fe18aae144ef6eb7ed.jpg"">"	Memórias
+Localidade temporal	"Se um programa acessa uma palavra da memória, há uma boa probabilidade de que ele em breve acesse a
+mesma palavra novamente.<br><br>(A INFORMAÇÃO ACESSADA ATUALMENTE TENDE A
+SER ACESSADA NOVAMENTE)"	Memórias
+Localidade espacial	"Se ele acessa uma palavra da memória, há uma boa probabilidade de que o programa acesse uma
+palavra subsequente ou de endereço adjacente àquela palavra que ele acabou de acessar.<br><br>(AS INFORMAÇÕES QUE ESTÃO PRÓXIMAS A
+INFORMAÇÃO ACESSADA ATUALMENTE NA MEMÓRIA TENDEM A SER ACESSADAS NO
+FUTURO)"	Memórias
+Tipos de cache	"L1 = Level 1 (MAIS PRÓXIMA DO NÚCLEO DO PROCESSADOR , MAIS RÁPIDA)<br>L2 = Level 2<br>L3 = Level 3<br><br><img src=""paste-035ac73f6f0c64381bd520dc9a0885d93ab433e0.jpg"">"	Memórias
